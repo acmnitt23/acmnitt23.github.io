@@ -9,11 +9,8 @@
 	z-index: 1;
 }
 
-body {
-    margin: 0;
-}
 #large-header {	
-    background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+    background-image: url('../images/bg.jpg');
 }
 
 .main-title {
@@ -42,4 +39,57 @@ body {
 	.demo-1 .main-title {
 		font-size: 3em;
 	}
+}
+
+.nav-des {
+    background: transparent !important;
+    margin-top: 5%;
+}
+
+nav a {
+    color: white !important;
+    font-size: 20px;
+    margin: auto 40px;
+}
+
+button {
+    color: white;
+    display: inline-block;
+}
+
+i {
+    font-size: 25px;
+}
+
+.logo {
+    height: 6rem;
+    width: 6rem;
+    display: inline-block;
+    position: fixed;
+    z-index: 1;
+    bottom: 85%;
+    left: 93%;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        height: 4.5rem;
+        width: 4.5rem;
+        display: inline-block;
+        position: fixed;
+        z-index: 1;
+        bottom: 85%;
+        left: 80%;
+    }
+    
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+   
 }
