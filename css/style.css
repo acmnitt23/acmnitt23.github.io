@@ -34,36 +34,40 @@ i {
     font-size: 25px;
 }
 
-.logo {
+#nitt {
     height: 6rem;
     width: 6rem;
     display: inline-block;
     position: fixed;
-    z-index: 1;
-    bottom: 85%;
-    left: 93%;
+    bottom: 4%;
+    left: 4%;
 }
 
-.logo img {
+#nitt img {
     height: 100%;
     width: 100%;
 }
 
-.a{
-	position: fixed;
-	color:white;
-	bottom:7%;
-	left:43%;
-    font-family: 'Dancing Script', cursive;
-	font-size: 1.3em;
+#acm{
+  position: absolute;
+  bottom: 4%;
+  height: 3rem;
+  width: 10rem;
+  right: 2%;
 }
 
-#acm{
-  position: fixed;
-  bottom: 6%;
-  width: 50px;
-  left: 49%;
+#acm span {
+	color:white;
+    font-family: 'Dancing Script', cursive;
+	font-size: 1em;
 }
+
+#acm img {
+    display: inline;
+    height: 100%;
+    width: 30%;
+}
+
 .center {
     letter-spacing: 2px;
 	position: absolute;
