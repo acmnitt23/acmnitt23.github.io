@@ -71,8 +71,6 @@ i {
     letter-spacing: 2px;
 	position: absolute;
 	font-size: 50px;
-	margin: 0;
-	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
 	top: 50%;
@@ -89,7 +87,6 @@ i {
 	text-align: center;
 	top: 55%;
 	left: 43%;
-
 }
 
 @media screen and (max-width: 600px) {
@@ -107,5 +104,33 @@ i {
         height: 100%;
         width: 100%;
     }
-   
+
+    .center {
+        letter-spacing: 2px;
+        position: absolute;
+        font-size: 50px;
+        color: #f9f1e9;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate3d(-50%,-50%,0);
+        transform: translate3d(-50%,-50%,0);
+    }
+    
+    .date{
+        font-size: large;
+        letter-spacing: 2px;
+        position: absolute;
+        color: #f9f1e9;
+        text-align: center;
+        top: 55%;
+        left: 30%;
+    }
+
+    nav a {
+        color: white !important;
+        font-size: 0.7em;
+        margin: auto 40px;
+    }
+    
 }
