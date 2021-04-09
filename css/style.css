@@ -6,7 +6,9 @@
 }*/
 
 body {
-	background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);
+	/*background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);*/
+    background: radial-gradient(#2c3e50, #152f49, #000, #f9f1e9);
+
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -57,9 +59,15 @@ i {
     width: 6rem;
     display: inline-block;
     position: fixed;
-    top: 90%;
-    bottom: 2%;
+    top: 85%;
+    bottom: 4%;
     left: 4%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: white;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
 }
 
 #nitt img {
@@ -69,10 +77,17 @@ i {
 
 #acm{
   position: absolute;
+  top: 85%;
   bottom: 4%;
   height: 3rem;
   width: 10rem;
-  right: 2%;
+  right: 7%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 #acm span {
