@@ -172,6 +172,7 @@ i {
         background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);
         background-size: 400% 400%;
         animation: gradient 5s ease infinite;
+	    
     }
     
 }
