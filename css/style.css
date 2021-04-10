@@ -63,7 +63,7 @@ i {
     bottom: 4%;
     left: 4%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 13px;
     color: white;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -71,21 +71,21 @@ i {
 }
 
 #nitt img {
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
 }
 
 #acm{
   position: absolute;
   top: 85%;
   bottom: 4%;
-  height: 3rem;
-  width: 10rem;
+  height: 6rem;
+  width: 6rem;
   right: 7%;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 12px;
+  font-size: 15px;
   color: white;
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -98,8 +98,8 @@ i {
 
 #acm img {
     display: inline;
-    height: 100%;
-    width: 30%;
+    height: 70%;
+    width: 70%;
 }
 
 .center {
