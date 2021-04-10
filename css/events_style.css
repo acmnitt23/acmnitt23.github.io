@@ -60,6 +60,8 @@ i {
     margin-left: 45px;
     color:white;
     background-color:slategray;
+    width:20rem;
+    height: 20rem;
 }
 
 .card:hover {
@@ -114,8 +116,11 @@ i {
         overflow-y: scroll;
     }
     
-    .card {
-        left: 25%;
+    .events {
+        margin-left: -10%;
     }
 
+    .card {
+        margin-left: 5%;
+    }
 }
