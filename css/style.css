@@ -133,13 +133,35 @@ img {
         display: inline-block;
         position: fixed;
         z-index: 1;
-        bottom: 4%;
+        bottom: 6%;
         left: 4%;
     }
     
     #nitt img {
         height: 100%;
         width: 100%;
+        margin-left: 6%;
+    }
+
+    #acm{
+        height: 4.5rem;
+        width: 4.5rem;
+        display: inline-block;
+        position: fixed;
+        z-index: 1;
+        bottom: 6%;
+        right: 6%;
+    }
+
+    #acm img {
+        height: 100%;
+        width: 100%;
+        margin-right: 6%;
+    }
+
+    .full-form
+    {
+        display: flex;
     }
 
     .center {
@@ -175,6 +197,15 @@ img {
         background-size: 400% 400%;
         animation: gradient 5s ease infinite;
 	    
+    }
+
+    .full-form{
+        display: flex;
+    }
+
+    .nowrap {
+    width: 100px;
+    white-space: normal;
     }
     
 }
