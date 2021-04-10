@@ -117,10 +117,11 @@ i {
     }
     
     .events {
-        margin: auto;
+        margin-left: -10%;
+        margin-top: 20%;
     }
 
     .card {
-        margin: auto;
+        margin: 10% auto;
     }
 }
