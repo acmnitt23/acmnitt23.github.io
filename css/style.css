@@ -133,7 +133,7 @@ img {
         display: inline-block;
         position: fixed;
         z-index: 1;
-        bottom: 6%;
+        bottom: 9%;
         left: 4%;
     }
     
@@ -149,7 +149,7 @@ img {
         display: inline-block;
         position: fixed;
         z-index: 1;
-        bottom: 6%;
+        bottom: 9%;
         right: 6%;
     }
 
