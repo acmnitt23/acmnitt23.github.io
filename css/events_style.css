@@ -4,6 +4,7 @@ body {
 
 	background-size: 400% 400%;
 	animation: gradient 30s ease infinite;
+    overflow-y: scroll;
 }
 
 @keyframes gradient {
@@ -41,14 +42,14 @@ i {
 .events{
     color:white;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 5%;
     padding: 4%;
     margin-left: -5%;
 }
 
 .card{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     margin-right: 10px;
     margin-left: 45px;
     color:white;
