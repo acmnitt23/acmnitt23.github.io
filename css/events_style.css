@@ -39,8 +39,22 @@ i {
     font-size: 25px;
 }
 
+.events{
+    color:white;
+    text-align: center;
+}
+.card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 45px;
+    color:white;
+    background-color:slategray;
+}
 
-  
+#card-img{
+    height:150px;
+}
 @media screen and (max-width: 600px) {
     nav a {
         color: white !important;
