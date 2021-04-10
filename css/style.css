@@ -131,23 +131,23 @@ img {
         height: 4.5rem;
         width: 4.5rem;
         display: inline-block;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         bottom: 9%;
-        left: 4%;
+        left: 5%;
     }
     
     #nitt img {
         height: 100%;
         width: 100%;
-        margin-left: 6%;
+        margin-left: 10%;
     }
 
     #acm{
         height: 4.5rem;
         width: 4.5rem;
         display: inline-block;
-        position: fixed;
+        position: absolute;
         z-index: 1;
         bottom: 9%;
         right: 6%;
