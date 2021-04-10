@@ -1,0 +1,57 @@
+body {
+	/*background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);*/
+    background: radial-gradient(#2c3e50, #152f49, #000, #f9f1e9);
+
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.nav-des {
+    background: transparent !important;
+    margin-top: 2%;
+}
+
+nav a {
+    color: white !important;
+    font-size: 20px;
+    margin: auto 40px;
+}
+
+button {
+    color: white;
+    display: inline-block;
+}
+
+i {
+    font-size: 25px;
+}
+
+
+  
+@media screen and (max-width: 600px) {
+    nav a {
+        color: white !important;
+        font-size: 0.8em;
+        margin: auto 40px;
+    }
+
+    body {
+        background: linear-gradient(-45deg, #ee7752, #2c3e50, #23a6d5, #434343);
+        background-size: 400% 400%;
+        animation: gradient 5s ease infinite;
+    }
+    
+}
