@@ -55,51 +55,53 @@ i {
 }
 
 #nitt {
-    height: 6rem;
-    width: 6rem;
-    display: inline-block;
-    position: fixed;
     top: 85%;
-    bottom: 4%;
-    left: 4%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 13px;
-    color: white;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    text-align: left;
+    left: 2%;
 }
 
-#nitt img {
-    height: 70%;
-    width: 70%;
+.logo {
+    height: 6rem;
+    width: 20rem;
+    position: fixed;
+    text-align: center;
+}
+
+.full-form {
+    display: block !important;
+    font-size: 0.9rem;
+    color: white;
+    padding: 4%;
+}
+
+img {
+    height: 60%;
+    width: 18%;
 }
 
 #acm{
-  position: absolute;
-  top: 85%;
-  bottom: 4%;
-  height: 6rem;
-  width: 6rem;
-  right: 7%;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  color: white;
-  text-align: left;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-#acm span {
-	color:white;
-    font-family: 'Dancing Script', cursive;
-	font-size: 1em;
+    top: 85%;
+    right: 1%;
+    margin-right: -2%;
 }
 
 #acm img {
-    display: inline;
-    height: 70%;
-    width: 70%;
+    margin-right: -50%;
+}
+
+#nitt img {
+    margin-left: -60%;
+}
+
+#present {
+	color:white;
+    font-family: 'Dancing Script', cursive;
+	font-size: 1.3rem;
+    padding: 4%;
+}
+
+.nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .center {
