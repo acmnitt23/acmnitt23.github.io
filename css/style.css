@@ -71,7 +71,7 @@ body {
 
 .infotrek-main {
     position: absolute;
-    top: 5%;
+    top: 2%;
 	left: 15%;
 }
 
@@ -178,6 +178,8 @@ img {
 
   .row .unit {
     position: relative;
+    top: -375px;
+    left: 375px;
     overflow: hidden;
     display: inline-block;
     z-index: 2;
@@ -189,6 +191,7 @@ img {
     text-shadow: 0 0 2rem #fff3e7;
     box-shadow: 0 0 2rem 0 rgba(12, 34, 43, 0.25), 0 2rem 3rem -2rem rgba(12, 34, 43, 0.5);
   }
+
   .row .unit:before {
     content: "";
     position: absolute;

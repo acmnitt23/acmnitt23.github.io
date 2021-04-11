@@ -190,7 +190,7 @@ var ticker;
 
 function getSeconds() {
 	let now 			= new Date();
-	let days 			= 3;
+	let days 			= 20;
 	let next			= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0 , 0);
 	
 	let current 	= now.getTime();
