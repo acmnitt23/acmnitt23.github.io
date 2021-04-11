@@ -41,16 +41,33 @@ body {
     left: 15%;
 }
 
-.infotrek {
+.infotrek{
     position: absolute;
-    top: 1%;
-    margin-top: -1%;
-    left: 3%;
+    top: 0.2%;
+    margin-top: -2%;
+    margin-left: -3.8%;
+    left: 0.2%;
 }
 
-.infotrek img {
+.infotrek img{
     height: 20%;
     width: 25%;
+}
+
+.infotrek-main {
+    position: absolute;
+   /* top: 0.2%;
+    margin-top: -2%;
+    margin-left: -2.5%;
+    left: 0.2%;*/
+    top: 15%;
+	left: 20%;
+    
+}
+
+.infotrek-main img {
+    height: 80%;
+    width: 80%;
 }
 nav a {
     color: white !important;
