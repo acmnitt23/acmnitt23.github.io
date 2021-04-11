@@ -41,7 +41,20 @@ body {
     left: 15%;
 }
 
-.infotrek {
+.infotrek{
+    position: absolute;
+    top: 0.2%;
+    margin-top: -2%;
+    margin-left: -3.8%;
+    left: 0.2%;
+}
+
+.infotrek img{
+    height: 20%;
+    width: 25%;
+}
+
+.infotrek-main {
     position: absolute;
    /* top: 0.2%;
     margin-top: -2%;
@@ -52,7 +65,7 @@ body {
     
 }
 
-.infotrek img {
+.infotrek-main img {
     height: 80%;
     width: 80%;
 }
