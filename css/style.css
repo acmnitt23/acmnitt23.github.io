@@ -64,7 +64,7 @@ body {
 
 .infotrek{
     position: absolute;
-    top: 1.5%;
+    top: 2%;
     left: 3%;
 }
 
@@ -183,15 +183,16 @@ img {
   .row .unit {
     position: relative;
     top: -55em;
-    left: 1em;
+    left: 7em;
     overflow: hidden;
     display: inline-block;
     z-index: 2;
-    padding: 1rem 0 2.5rem;
+    padding: 1.5rem 0 1.5rem;
     border-radius: 0.25rem;
-    width: 12rem;
+    width: 8rem;
+    height: 10em;
     box-sizing: border-box;
-    margin: 0.25rem;
+    margin: 0.4rem;
     text-shadow: 0 0 2rem #fff3e7;
     box-shadow: 0 0 2rem 0 rgba(12, 34, 43, 0.25), 0 2rem 3rem -2rem rgba(12, 34, 43, 0.5);
   }
@@ -222,8 +223,8 @@ img {
   .row .unit div {
     background: none;
     text-align: center;
-    font-size: 6rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 700;
   }
   .row .unit span {
     font-size: 1.5rem;
@@ -259,7 +260,7 @@ img {
     #acm img {
         height: 100%;
         width: 100%;
-        margin-right: 6%;
+        margin-right: 10%;
     }
 
     .full-form
