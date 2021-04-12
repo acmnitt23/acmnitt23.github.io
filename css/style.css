@@ -6,10 +6,7 @@
 }*/
 
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-body, html {
-  width: 100%;
-  height: 100%;
-}
+
 
 
 body {
@@ -26,8 +23,8 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow-y: visible;
+    overflow-x: visible;
 }
 
 
@@ -42,6 +39,12 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
 .large-header {
 	position: relative;
 	width: 100%;
@@ -103,7 +106,7 @@ i {
 .logo {
     height: 6rem;
     width: 20rem;
-    position: fixed;
+    position: absolute;
     text-align: center;
 }
 
@@ -180,7 +183,7 @@ img {
   .row .unit {
     position: relative;
     top: -25em;
-    left: 25em;
+    left: 1em;
     overflow: hidden;
     display: inline-block;
     z-index: 2;
@@ -204,7 +207,7 @@ img {
     box-shadow: inset 0 0 16rem 2rem rgba(255, 243, 231, 0.5);
     background: inherit;
     filter: blur(8px);
-    margin: -16px;
+    margin: -8em;
   }
   .row .unit:after {
     content: "";
