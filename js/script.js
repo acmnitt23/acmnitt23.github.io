@@ -190,8 +190,8 @@ var ticker;
 
 function getSeconds() {
 	let now 			= new Date();
-	let days 			= 20;
-	let next			= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 0 , 0);
+	let days 			= 35;
+	let next			= new Date(now.getFullYear(), now.getMonth(), now.getDate(), 10, 0 , 0);
 	
 	let current 	= now.getTime();
 	let nextTime	= next.getTime();
@@ -237,7 +237,7 @@ function tick() {
 	let mins = Math.floor(secs/60);
 	secs %= 60;
 	
-	$('#days').text('0' + day);
+	$('#days').text(day);
 	$('#hours').text(((hours < 10) ? '0' : '') + hours);
 	$('#minutes').text(((mins < 10) ? '0' : '') + mins);
 	$('#seconds').text(((secs < 10) ? '0' : '') + secs);

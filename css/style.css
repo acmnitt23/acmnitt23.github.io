@@ -23,8 +23,8 @@ body {
     display: grid;
     align-items: center;
     justify-content: center;
-    overflow-y: visible;
-    overflow-x: visible;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -74,14 +74,14 @@ body {
 }
 
 .infotrek-main {
-    position: absolute;
-    top: 2%;
-	left: 15%;
+    position: relative;
+    top: -45rem;
+	left: -2rem;
 }
 
 .infotrek-main img {
-    height: 80%;
-    width: 80%;
+    height: 30rem;
+    width: 50rem;
 }
 nav a {
     color: white !important;
@@ -182,7 +182,7 @@ img {
 
   .row .unit {
     position: relative;
-    top: -25em;
+    top: -55em;
     left: 1em;
     overflow: hidden;
     display: inline-block;
