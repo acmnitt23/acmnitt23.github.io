@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input{
+    display: none;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+
+h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: slateblue;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+.top-content{
+    background-color: rgb(245, 245, 245);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+
+h3{
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+}
+
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 20px;
+    line-height: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(209, 197, 197);
+    cursor: pointer;
+    transition: color .5s;
+}
+
+label:hover{
+    color: black;
+}
+
+.photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+.photo{
+    position: relative;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px lightgray;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.photo:before{
+    content: "Photo Gallery";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+}
+
+.photo:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 10px;
+    height: 0;
+    background-color: rgb(0, 0, 0, .4);
+    transition: .3s;
+}
+
+.photo:hover::after{
+    height: 100%;
+}
+
+.photo:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+
+#check1:checked ~ .container .photo-gallery .photo{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .2s;
+}
+
+#check2:checked ~ .container .photo-gallery .info19,
+#check3:checked ~ .container .photo-gallery .acum19{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+
+
+
+
+
