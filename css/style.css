@@ -10,10 +10,17 @@
 
 body {
     margin: 0px;
-    overflow-y: hidden;
     overflow-x: hidden;
-  }
-  
+    overflow-y: hidden;
+    background-image: url("../images/Cover.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    width: 800px;
+
+    }
+ /* 
   .hero {
     width: 100%;
     min-height: 800px;
@@ -190,7 +197,7 @@ body {
     color: #12202F;
     letter-spacing: 0px;
     line-height: 27px;
-  }
+  }*/
 
 /*body {
     background: radial-gradient(#009698, #152f49, #004040, #f9f1e9);
@@ -257,17 +264,18 @@ body {
 
 .infotrek-main {
     position: relative;
-    top: -45rem;
-	left: -2rem;
+    top: 6rem;
+	  left: 26rem;
 }
 
 .infotrek-main img {
-    height: 30rem;
-    width: 50rem;
+    height: 40rem;
+    width: 36rem;
 }
 nav a {
-    color: black !important;
+    color: white !important;
     font-size: 20px;
+    color: white;
     margin: auto 40px;
 }
 
@@ -278,6 +286,7 @@ button {
 
 i {
     font-size: 25px;
+    color: white;
 }
 
 #nitt {
