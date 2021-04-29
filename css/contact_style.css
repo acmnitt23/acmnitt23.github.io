@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: radial-gradient(rgb(199, 96, 202), rgb(2, 2, 27), rgb(39, 182, 170));
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  font-family: Blinker, sans-serif;
+  letter-spacing: 0.1rem;
+  color: #0c222b;
+  background-position: center;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.nav-des {
+    background: transparent !important;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+  }
+  
+  .infotrek {
+    position: absolute;
+    top: 1.5%;
+    left: 3%;
+  }
+  
+  .infotrek img {
+    height: 20%;
+    width: 20%;
+  }
+  
+  .infotrek-main {
+    position: relative;
+    top: -50rem;
+    left: 6rem;
+  }
+  
+  .infotrek-main img {
+    height: 50rem;
+    width: 60rem;
+  }
+  
+  nav a {
+    color: white !important;
+    font-size: 20px;
+    color: white;
+    margin: auto 30px;
+  }
+  
+  nav a:hover {
+    color: rgb(14, 232, 248) !important;
+    transition: all 0.3s ease;
+  }
+  
+  button {
+    color: white;
+    display: inline-block;
+  }
+  
+  i {
+    font-size: 25px;
+    color: white;
+  }
+  

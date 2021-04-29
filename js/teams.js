@@ -7,10 +7,33 @@ var btn21 = document.querySelector("#b21");
 var b = document.querySelector("#dropdownMenu2");
 
 function func23(){
-    b.innerHTML = "Batck 2k23";
+    b.innerHTML = "Batck 2023";
     document.getElementById("team").innerHTML = 
    ` <div id = "id23">
-        
+   <div class="row h-100 justify-content-center align-items-center">
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+   <div class="outer-div">
+     <div class="inner-div">
+       <div class="front">
+         <div class="front__bkg-photo"></div>
+         <div class="front__face-photo" style="background: url(images/Faculty-Advisor/Dr.USR.jpg) no-repeat; background-size: contain;">
+         </div>
+         <div class="front__text">
+           <h3 class="front__text-header">Dr. U Srinivasulu Reddy</h3>
+           <h4><p class="front__text-para">Staff Advisor</p></h4>
+        </div>
+       </div>
+       <div class="back">
+         <div class="social-media-wrapper">
+           <a href="#" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+           <a href="#" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+         </div>
+       </div>
+     </div>
+   </div>
+   </div>
+ </div>
     <div class="row h-100 justify-content-center align-items-center">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
     <div class="outer-div">
@@ -173,9 +196,33 @@ function func23(){
 }
 
 function func22(){
-    b.innerHTML = "Batck 2k22";
+    b.innerHTML = "Batck 2022";
     document.getElementById("team").innerHTML =
      `<div id = "id22">
+     <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="outer-div">
+            <div class="inner-div">
+              <div class="front">
+                <div class="front__bkg-photo"></div>
+                <div class="front__face-photo" style="background: url(images/Faculty-Advisor/Dr.USR.jpg) no-repeat; background-size: contain;">
+                </div>
+                <div class="front__text">
+                  <h3 class="front__text-header">Dr. U Srinivasulu Reddy</h3>
+                  <h4><p class="front__text-para">Staff Advisor</p></h4>
+               </div>
+              </div>
+              <div class="back">
+                <div class="social-media-wrapper">
+                  <a href="#" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                   <a href="#" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
      <div class="row h-100 justify-content-center align-items-center">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
     <div class="outer-div">
@@ -255,7 +302,7 @@ function func22(){
             <div class="front__face-photo" style="background: url(images/Batch2k22/Nitil_Singh.jpg) no-repeat; background-size: contain;"></div>
             <div class="front__text">
               <h3 class="front__text-header">Nitil Singh</h3>
-              <p class="front__text-para">ducation In-charge</p>
+              <p class="front__text-para">Education In-charge</p>
              <!--<span class="front__text-hover">Hover to Find Me</span>-->
             </div>
           </div>
@@ -346,9 +393,33 @@ function func22(){
 
 
 function func21(){
-    b.innerHTML = "Batck 2k21";
+    b.innerHTML = "Batck 2021";
     document.getElementById("team").innerHTML =
      `<div id = "id21">
+     <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+          <div class="outer-div">
+            <div class="inner-div">
+              <div class="front">
+                <div class="front__bkg-photo"></div>
+                <div class="front__face-photo" style="background: url(images/Faculty-Advisor/Dr.USR.jpg) no-repeat; background-size: contain;">
+                </div>
+                <div class="front__text">
+                  <h3 class="front__text-header">Dr. U Srinivasulu Reddy</h3>
+                  <h4><p class="front__text-para">Staff Advisor</p></h4>
+               </div>
+              </div>
+              <div class="back">
+                <div class="social-media-wrapper">
+                  <a href="#" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                  <a href="#" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                   <a href="#" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
      <div class="row h-100 justify-content-center align-items-center">
      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
      <div class="outer-div">
@@ -425,7 +496,7 @@ function func21(){
           <div class="front__face-photo" style="background: url(images/Batch2k21/amit.png) no-repeat; background-size: contain;" ></div>
           <div class="front__text">
             <h3 class="front__text-header">Amit Sahu</h3>
-            <p class="front__text-para">></p>
+            <p class="front__text-para"></p>
           </div>
         </div>
         <div class="back">

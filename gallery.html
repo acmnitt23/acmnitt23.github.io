@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACM-INFOTREK'21 | GALLERY</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/gallery_style.css">
 </head>
@@ -16,7 +18,7 @@
 </div>
 <span class="infotrek"> 
   <a href="index.html"> 
-    <img src = "images/infotrek-logo.png">
+    <img src = "images/infotrek.png">
   </a> 
 </span>
 <nav class="navbar navbar-expand-lg fixed-top nav-des">
@@ -38,10 +40,10 @@
           <a class="nav-link" href="#">Registration</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Our Team</a>
+          <a class="nav-link" href="team.html">Our Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -49,14 +51,18 @@
 <input type="radio" name="Photos" id="check1" checked>
 <input type="radio" name="Photos" id="check2">
 <input type="radio" name="Photos" id="check3">
-
+<div class="input-group">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary dropdown-toggle" id="group-photos" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Photos</button>
     <div class="top-content">
-      
-      <label for="check1">All Photos</label><br>
-      <label for="check2">Infotrek'19</label><br>
-      <label for="check3">Acumen'19</label>  
-      
+    <div class="dropdown-menu">
+      <label for="check1" class="dropdown-item">All Photos</label>
+      <label for="check2" class="dropdown-item">Infotrek'20</label>
+      <label for="check3" class="dropdown-item">Acumen'19</label>
     </div>
+    </div>
+  </div>
+</div>
 <div class="container">
   <h1>OUR PHOTO GALLERY</h1>
     <div class="photo-gallery">
@@ -86,7 +92,9 @@
         <div id="modal01" class="modal" onclick="this.style.display='none'">
           <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <div class="modal-content">
-            <img id="img01" style="max-width:100%;" >
+            <center>
+            <img id="img01" style="width: 70%;" >
+          </center>
           </div>
         </div>
     </div>

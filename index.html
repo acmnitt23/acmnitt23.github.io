@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ACM-INFOTREK'21</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
     <script
-  src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
-  crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="hero">
-    <div class="parallax-layer layer-6"></div>
-    <div class="parallax-layer layer-5"></div>
-    <div class="parallax-layer layer-4"></div>
-    <div class="parallax-layer bike-1"></div>
-    <div class="parallax-layer bike-2"></div>
-    <div class="parallax-layer layer-3"></div>
-    <div class="parallax-layer layer-2"></div>
-    <div class="parallax-layer layer-1"></div>
-  </div>
-    <div id = "page-wrap">
-    <span class="infotrek"> 
-      <a href="index.html"> 
-        <img src = "images/white logo.png"> 
-      </a> 
-    </span>
-    <nav class="navbar navbar-expand-lg fixed-top nav-des">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="page-wrap">
+      <span class="infotrek">
+        <a href="index.html">
+          <img src="images/infotrek.png" />
+        </a>
+      </span>
+      <div class="center">
+        <div class="row">
+          <div class="unit">
+            <div id="days"></div>
+            <span>Days</span>
+          </div>
+          <div class="unit">
+            <div id="hours"></div>
+            <span>Hours</span>
+          </div>
+          <div class="unit">
+            <div id="minutes"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="unit">
+            <div id="seconds"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg fixed-top nav-des">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
@@ -54,52 +84,46 @@
               <a class="nav-link" href="team.html">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
-    </nav>
-   <!-- <h1 class="center">INFOTREK'21</h1>  -->
-   <span class="infotrek-main"> 
-    <a href="index.html"> 
-      <img src = "images/white logo.png"> 
-    </a> 
-  </span>
+      </nav>
 
-  <div class="center">
-    <div class="row">
-      <div class="unit">
-        <div id="days"></div>
-        <span>days</span>
+      <span class="infotrek-main">
+        <a href="index.html">
+          <img src="images/infotrek.png" />
+        </a>
+      </span>
+      <div id="nitt" class="logo">
+        <img src="images/nitt.png" />
+        <span class="full-form nowrap">
+          National Institute of Technology, Tiruchirappalli
+        </span>
       </div>
-      <div class="unit">
-        <div id="hours"></div>
-        <span>hours</span>
-      </div>
-      <div class="unit">
-        <div id="minutes"></div>
-        <span>minutes</span>
-      </div>
-      <div class="unit">
-        <div id="seconds"></div>
-        <span>seconds</span>
+      <div id="acm" class="logo">
+        <img src="images/acm.jpg" />
+        <span class="full-form nowrap">
+          Association for Computing Machinery
+        </span>
       </div>
     </div>
-    <!--<h4 class="date"> 20<sup>th</sup> to 28<sup>th</sup> AUGUST<h4>-->
-    <div id="nitt" class = "logo">
-      <img src = "images/nitt.png">
-      <span class = "full-form nowrap"> National Institute of Technology, Tiruchirappalli </span>
-    </div>
-    <div id = "acm" class = "logo">
-        <img src="images/acm.jpg">
-        <span class = "full-form nowrap"> Association for Computing Machinery </span>
-    </div>
-  </div>
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
