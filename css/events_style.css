@@ -1,9 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+body,
+html {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  
+}
 
 body,
 html {
   background-size: 400% 400%;
-  background: linear-gradient(to left, #0f044d, #8e2b9b);
-  height: 100%;
+  background-color: black;
+  font-family: Blinker, sans-serif;
+  letter-spacing: 0.1rem;
+  background: linear-gradient(to left, #0f044d, #52135a);
   overflow-x: hidden;
 }
 .dynam svg {
@@ -11,6 +22,8 @@ html {
   top: 35%;
   left: 50%;
   right: 50%;
+  width: 350px;
+  height: 350px;
   transform: translate(-50%, -50%);
 }
 
@@ -48,9 +61,13 @@ html {
 }
 
 nav a {
+  /* color: white !important;
+  font-size: 20px;
+  margin: auto 40px; */
   color: white !important;
   font-size: 20px;
-  margin: auto 40px;
+  color: white;
+  margin: auto 30px;
 }
 
 nav a:hover {
@@ -59,7 +76,7 @@ nav a:hover {
 }
 
 button {
-  color: #000;
+  color: rgb(233, 229, 229);
   display: inline-block;
 }
 
@@ -69,13 +86,13 @@ i {
 
 .infotrek {
   position: absolute;
-  top: 2%;
-  left: 3%;
+  top: 1.5%;
+  left: 3.5%;
 }
 
 .infotrek img {
-  height: 10%;
-  width: 15%;
+  height: 15%;
+  width: 20%;
 }
 
 .events {
@@ -99,20 +116,21 @@ h1 {
 }
 
 .card {
-  margin: 20px 10px 20px 60px;
-  color: white;
-  background-color: slategray;
+  margin: 10px 10px 20px 60px;
+  color: rgb(214, 203, 203);
+  background-color: rgb(2, 3, 15) !important;
   width: 20rem;
   height: 20rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   padding-top: 12px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 15px 15px rgba(202, 195, 195, 0.3);
 }
 
 .card::before,
@@ -142,27 +160,27 @@ h1 {
 }
 
 .card-title {
+  margin-top: -4rem;
   font-size: 25px;
-  font-weight: bolder;
-  font-family: fantasy;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align:center;
+  font-family: 'Poiret One', cursive;
+  color: #fff !important;
 }
 
-.card-text {
-  font-size: 12px;
-  font-family: fantasy;
-  word-wrap: normal;
-}
 
 #card-img {
-  height: 150px;
-  width: 150px;
-  margin-left: 5rem;
+  height: 250px;
+  width: 250px;
+  margin-left: 2rem;
+  margin-bottom: 0.01rem;
 }
 
-.btn btn-dark{
-  position: relative;
-  margin-top: -10px;
-  margin-bottom: -10px !important;
+.btn {
+  margin-bottom: 2rem;
+  
+  
 }
 
 .modal-img {
@@ -174,25 +192,18 @@ h1 {
 
 @media screen and (max-width: 800px) {
  
-  svg {
-    position: relative;
-    top: 15rem;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-  } 
 
-  h1 {
-    font-size: 2rem;
-    font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
+  body{
+    background-size: 350% 350%;
+    overflow-x: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-
   .nav-des {
-    margin-top: -30vh;
-    left: -1vh;
+    margin-top: -38vh;
+    left: 40vh;
     position: relative;
-    color: white;
+    color: white !important;
   }
 
   nav a {
@@ -207,9 +218,35 @@ h1 {
     color: rgb(14, 232, 248) !important;
     transition: all 0.3s ease;
   }
+  button{
+    color: #fff !important;
+  }
+
+  svg {
+    padding-top: 2rem;
+    position: relative;
+    top: 10rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  } 
+
+  h1 {
+    margin-top: -1rem;
+    font-size: 2rem;
+    /* font-family: "Courier New", Courier, monospace; */
+    font-weight: bold;
+  }
 
   
 
+  .infotrek{
+    margin-left: 1rem;
+  }
+
+  .infotrek img{
+    width: 60%;
+  }
 
   body {
     background-size: 400% 400%;
