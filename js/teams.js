@@ -186,7 +186,7 @@ function func23(){
 }
 
 function func22(){
-    b.innerHTML = "Batck 2022";
+    b.innerHTML = "Batch 2022";
     document.getElementById("team").innerHTML =
     `<div id = "id22">
   <div class="row h-100 justify-content-center align-items-center">
