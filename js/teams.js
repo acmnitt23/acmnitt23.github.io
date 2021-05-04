@@ -1,13 +1,22 @@
-var id23 = document.querySelector("#id23");
-var btn23 = document.querySelector("#b23");
-var id22 = document.querySelector("#id22");
-var btn22 = document.querySelector("#b22");
-var id21 = document.querySelector("#id21");
-var btn21 = document.querySelector("#b21");
-var b = document.querySelector("#dropdownMenu2");
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active')
+})
+
+
+var id23 = document.getElementById("id23");
+var btn23 = document.getElementById("b23");
+var id22 = document.getElementById("id22");
+var btn22 = document.getElementById("b22");
+var id21 = document.getElementById("id21");
+var btn21 = document.getElementById("b21");
+var b = document.getElementById("dropdownMenu2");
 
 function func23(){
-    b.innerHTML = "Batck 2023";
+    b.innerHTML = "Batch 2023";
     document.getElementById("team").innerHTML = 
    ` <div id = "id23">
    <div class="row h-100 justify-content-center align-items-center">
@@ -510,7 +519,7 @@ function func22(){
 
 
 function func21(){
-    b.innerHTML = "Batck 2021";
+    b.innerHTML = "Batch 2021";
     document.getElementById("team").innerHTML =
      `<div id = "id21">
      <div class="row h-100 justify-content-center align-items-center">

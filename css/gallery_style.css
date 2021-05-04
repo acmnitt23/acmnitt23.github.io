@@ -1,105 +1,49 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-/* 
 
-body,
-html {
-  margin: 0px;
-  overflow-y: inherit;
-  overflow-x: hidden;
-  height: 100%;
-  width: 100%;
-} */
-body{
-  background-color: black;
+body {
   background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
-  font-family: Blinker, sans-serif;
+  font-family: Blinker, sans-serif !important;
   letter-spacing: 0.1rem;
-  color: #0c222b;
-  background-position: center;
   height: 100%;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-des {
-  background: transparent !important;
-  position: absolute;
-  top: 5%;
-  left: 15%;
-}
-
-.infotrek {
-  position: absolute;
-  top: 1%;
-  left: 3.5%;
-}
-
-.infotrek img {
-  height: 15%;
-  width: 20%;
-}
-
-nav a {
-  color: white !important;
-  font-size: 20px;
-  margin: auto 42px;
-}
-
-nav a:hover {
-  color: rgb(14, 232, 248) !important;
-  transition: all 0.3s ease;
-}
-
-button {
-  color: white;
-  display: inline-block;
-}
-
-i {
-  font-size: 25px;
-  color: white;
 }
 
 .heading {
-  margin-top: 10rem;
-  margin-left: 28rem;
+  margin-top: 5%;
+  margin-left: 38%;
   color: white;
 }
 
 h1 {
-    font-weight: normal;
-    font-size: 35px;
-    position: relative;
-    margin: 40px 0;
-    color: white;
-  }
-  
-  h1::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 3px;
-    background-color: rgb(23, 230, 230);
-    bottom: -10px;
-    left: 20%;
-    transform: translate(-50%);
-    animation: animate 6s linear infinite;
-  }
-  
-  @keyframes animate {
-    0% {
-      width: 100px;
-    }
-    50% {
-      width: 200px;
-    }
-    100% {
-      width: 100px;
-    }
-  }
-  
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
+  color: white;
+}
 
+h1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(23, 230, 230);
+  bottom: -10px;
+  left: 20%;
+  transform: translate(-50%);
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 100px;
+  }
+}
 
 .container {
   margin-top: 50px;
@@ -123,61 +67,19 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .infotrek {
-    position: absolute;
-    top: 3%;
-    left: 3%;
-    margin-bottom: 5rem;
-  }
-
-  .nav-des {
-    margin-top: 10vh;
-    left: 1rem;
-    position: relative;
-  }
-
-  nav a {
-    color: white !important;
-    font-size: 1em;
-    top: 5%;
-    margin-left: 2rem;
-  }
-
-  nav a:hover {
-    color: rgb(14, 232, 248) !important;
-    transition: all 0.3s ease;
-  }
-
-  nav a {
-    color: white !important;
-    font-size: 1rem;
-    margin: auto 20px;
-  }
-
-  .infotrek img {
-    width: 10rem;
-  }
-
-  body {
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
-    overflow-y: scroll;
-    overflow-x: hidden;
-  }
-
   .heading {
     margin-left: 0.1rem;
     margin-top: 2rem;
     color: white;
-    font-size: 5rem;
+    font-size: 5rem !important;
     text-align: center;
   }
 
-  h1{
-      left: 0.5rem;
+  h1 {
+    left: 0.5rem;
   }
 
-  h1::before{
-      left: 12rem;
+  h1::before {
+    left: 12rem;
   }
 }

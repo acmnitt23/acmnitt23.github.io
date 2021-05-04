@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INFOTREK'21</title>
     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/abc.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <link rel="stylesheet" href="css/preloader.css">
+   
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -21,6 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
@@ -111,33 +118,39 @@
 
   </head>
   <body>
-    
+      
+<div id="loader-wrapper">
+  <!-- Loader -->
+  <div class="loader">
+
+    <!-- Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Loader face -->
+    <div class="loader--face">
+
+      <!-- Loader face smile -->
+      <svg class="loader--face--smile" viewBox="25 25 50 50">
+        <circle cx="50" cy="50" r="20" fill="none" stroke="#64FFFE" stroke-width="2" />
+      </svg><!-- ./Loader face smile -->
+
+      <!-- Loader face eyes -->
+      <div class="loader--face--eyes">
+        <span></span>
+        <span></span>
+      </div><!-- ./Loader face eyes -->
+    </div><!-- ./Loader face -->
+  </div><!-- ./Loader -->
+</div>
+
+
     <div id="page-wrap">
       <span class="infotrek">
         <a href="index.html">
-          <img src="images/Event Logos/infotrek.png" />
+          <img src="images/infotrek.png" />
         </a>
       </span>
-      <!-- <div class="center">
-        <div class="row">
-          <div class="unit">
-            <div id="days"></div>
-            <span>Days</span>
-          </div>
-          <div class="unit">
-            <div id="hours"></div>
-            <span>Hours</span>
-          </div>
-          <div class="unit">
-            <div id="minutes"></div>
-            <span>Minutes</span>
-          </div>
-          <div class="unit">
-            <div id="seconds"></div>
-            <span>Seconds</span>
-          </div>
-        </div>
-      </div> -->
+
       
       <nav class="navbar navbar-expand-lg fixed-top nav-des">
         <button
@@ -163,7 +176,7 @@
               <a class="nav-link" href="registration.html">Registration</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="team.html">Our Team</a>
+              <a class="nav-link" href="team (1).html">Our Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
@@ -173,28 +186,15 @@
       </nav>
       <div>
       <span class="infotrek-main">
-          <img src="images/Event Logos/infotrek.png" />
+        <h1 class="animate__animated animate__zoomIn animate__slower animate__infinite	"> <img src="images/infotrek.png" /></h1>
       </span>
     </div>
-      <div id="timer" class="flex-wrap d-flex justify-content-center">
+      <div id="timer" class="flex-wrap d-flex justify-content-center" style="color: aliceblue;">
         <div id="days" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="hours" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="minutes" class="align-items-center flex-column d-flex justify-content-center"></div>
         <div id="seconds" class="align-items-center flex-column d-flex justify-content-center"></div>
       </div>
-
-      <!-- <div id="nitt" class="logo">
-        <img src="images/nitt.png" />
-        <span class="full-form nowrap">
-          National Institute of Technology, Tiruchirappalli
-        </span>
-      </div>
-      <div id="acm" class="logo">
-        <img src="images/acm.jpg" />
-        <span class="full-form nowrap">
-          Association for Computing Machinery
-        </span>
-      </div> -->
 
       <div class="row" style="left:8px;bottom: -35px;text-align: center;width: 100%; position: fixed;">
         <br><br><br><br><br><br>
@@ -234,5 +234,24 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var loader = document.getElementById('loader-wrapper');
+      document.addEventListener("DOMContentLoaded", function() {
+     
+    loadNow(1);
+    });
+      function loadNow(opacity) {
+        if (opacity <= 0) {
+        displayContent();
+    } else {
+        loader.style.opacity = opacity;
+        window.setTimeout(function() {
+            loadNow(opacity - 0.05);
+        }, 400);}
+    }
+    function displayContent() {
+    loader.style.display = 'none';
+    document.getElementById('page-wrap').style.display = 'block';
+}  </script> 
   </body>
 </html>

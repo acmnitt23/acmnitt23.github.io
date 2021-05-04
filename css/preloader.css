@@ -1,0 +1,126 @@
+  body{
+    
+      background-position: center;
+  }
+
+
+  #loader-wrapper {
+   background: black;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 9999999;
+  }
+  
+  .loader {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    box-shadow: none;
+    border: 10px solid rgba(100, 255, 254, 0.8);
+    border-radius: 100%;
+    animation: shadow 1.5s cubic-bezier(0.165, 0.84, 0.44, 1) infinite;
+  }
+  .loader #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0px 0px 2px #0300cc);
+  }
+  .loader:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    box-shadow: inset 0px 0px 40px 5px #0300cc;
+    border-radius: 100%;
+  }
+  .loader:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    box-shadow: inset 0px 0px 0px 8px rgba(18, 17, 142, 0.38);
+    border-radius: 100%;
+  }
+  .loader canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 100%;
+  }
+  .loader--face {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  .loader--face--eyes {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: flex;
+    margin: auto;
+    transform: translateX(-50%);
+  }
+  .loader--face--eyes span {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #64fffe;
+    box-shadow: 0px 0px 40px 5px #0300cc;
+    border-radius: 100%;
+  }
+  .loader--face--smile {
+    transform-origin: center center;
+    animation: rotate 2s linear infinite;
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  }
+  .loader--face--smile circle {
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-dasharray: 150, 200;
+    stroke-dashoffset: -10;
+    stroke-linecap: round;
+  }
+  
+  @keyframes shadow {
+    0% {
+      box-shadow: 0px 0px 40px 2px #0300cc;
+    }
+    50% {
+      box-shadow: 0px 0px 40px 0 #0300cc;
+    }
+    100% {
+      box-shadow: 0px 0px 40px 2px #0300cc;
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124;
+    }
+  }
+    

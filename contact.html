@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/navbar.css">
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -35,46 +36,36 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+
     <title>INFOTREK'21 | CONTACT-US</title>
 </head>
 <body>
-    <span class="infotrek"> 
-      <a href="index.html"> 
-        <img src = "images/infotrek.png">
-      </a> 
-    </span>
-    <nav class="navbar navbar-expand-lg fixed-top nav-des">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="events.html">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="registration.html">Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="team.html">Our Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar">
+    <div>
+        <a href="index.html" class="navbar-brand"><img src="images/infotrek.png" alt=""></a>
+
+    </div>
+
+    <div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+    </div>
+
+
+    <div class="navbar-links">
+        <ul>
+          <li><a href="events.html" >Event</a></li>
+          <li><a href="gallery.html" >Gallery</a></li>
+          <li><a href="registration.html" >Registration</a></li>
+          <li><a href="contact.html" >Contact </a></li>
+          <li><a href="team.html">Our team</a></li>
+        </ul>
+    </div>
+</nav>
+
       <div class="heading"><h1>CONTACT US</h1></div>
       
       <div class="container">
@@ -129,5 +120,16 @@
           </div>
         </div>
       </div>
+
+      <script>
+        const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+
+
+    </script>
 </body>
 </html>

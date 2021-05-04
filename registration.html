@@ -2,86 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INFOTREK'21 | Registration</title>
+    <link rel="icon" href="../image/template/logo.png" type="image/png" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      name="viewport"
+    />
+    <link rel="shortcut icon" href="/catalog/favicon.ico?v=10" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="css/register_style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
     />
-    <script
-      src="https://kit.fontawesome.com/c7f61e4a31.js"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <title>INFOTREK'21 | REGISTRATIONS</title>
+    <link rel="stylesheet" href="css/register_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body>
-    <br />
-    <span class="infotrek">
-      <a href="index.html">
-        <img src="images/infotrek.png" />
-      </a>
-    </span>
-    <nav class="navbar navbar-expand-lg nav-des">
-      
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="events.html">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="registration.html">Registration</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="team.html">Our Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+    <nav class="navbar">
+      <div>
+        <a href="index.html" class="navbar-brand"
+          ><img src="images/infotrek.png" alt=""
+        /></a>
+      </div>
+
+      <div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+      </div>
+
+      <div class="navbar-links">
+        <ul>
+          <li><a href="events.html" >Event</a></li>
+          <li><a href="gallery.html" >Gallery</a></li>
+          <li><a href="registration.html" >Registration</a></li>
+          <li><a href="contact.html" >Contact </a></li>
+          <li><a href="team.html">Our team</a></li>
         </ul>
       </div>
     </nav>
-    <form class="box" method="POST" action="/sign_up">
-     <div class="registerHead"><h1>REGISTRATION</h1></div> 
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="number" name="roll" placeholder="Roll Number" required />
-      <input type="Password" name="password" placeholder="Password" required />
-      <input type="Submit" name="Login" value="Register" />
-    </form>
+    <div>
+      <form action="auth" class="box" method="POST">
+        <h1 class="event-page">Registration</h1>
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          autocomplete="off"
+          required
+        />
+        <input type="text" name="rollno" placeholder="Roll Number" required />
+        <input
+          type="Password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+        <input type="Submit" value="Login" />
+      </form>
+    </div>
+
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
