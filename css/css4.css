@@ -1,30 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
 
 html {
-  overflow: auto;
+    
   overflow-x: hidden;
-  overflow-y: hidden;
   height: 100%;
-  width: 100%;
-}
+  overflow-y: hidden;
+} 
 
 body {
-  background-image: radial-gradient(
-    circle,
-    rgb(78, 19, 78),
-    rgb(26, 27, 77),
-    #000
-  );
+  
   animation: gradient 10s ease infinite;
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b;
-  background-position: center;
+  
   height: 100%;
-  display: grid;
+  
   align-items: center;
   justify-content: center;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
+
+
 
 @keyframes gradient {
   0% {
@@ -43,12 +42,7 @@ body {
   margin: 0 auto;
 }
 
-.nav-des {
-  background: transparent !important;
-  position: absolute;
-  top: 5%;
-  left: 15%;
-}
+
 
 .infotrek {
   position: absolute;
@@ -61,10 +55,31 @@ body {
   width: 12%;
 }
 
-.infotrek-main h1{
+
+#timer div {
+  background-color: rgba(12, 8, 8, 0.863);
+  color: #ffffff;
+  width: 105px;
+  height: 105px;
+  border-radius: 5px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 4px 4px rgb(221, 236, 235);
+}
+#timer div span {
+  display: block;
+  margin-top: -2px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+ .infotrek-main {
   position: relative;
-  top: -80px;
-  left: 1rem;
+  top: 20%;
+  left: 28rem;
   animation: shakeX; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 4s !important;
   animation-delay: 2s;
@@ -77,46 +92,7 @@ body {
   width: 40vw;
 }
 
-nav a {
-  color: white !important;
-  font-size: 20px;
-  color: white;
-  margin: auto 30px;
-}
 
-nav a:hover {
-  color: rgb(14, 232, 248) !important;
-  transition: all 0.3s ease;
-}
-
-button {
-  color: white;
-  display: inline-block;
-}
-
-i {
-  font-size: 25px;
-}
-
-#timer div {
-  background-color: rgba(12, 8, 8, 0.863);
-  color: #ffffff;
-  width: 105px;
-  height: 105px;
-  border-radius: 5px;
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: -80px;
-  margin-left: 10px;
-  margin-right: 10px;
-  box-shadow: 2px 4px 4px rgb(221, 236, 235);
-}
-#timer div span {
-  display: block;
-  margin-top: -2px;
-  font-size: 15px;
-  font-weight: 500;
-}
 @media screen and (max-width: 600px) {
   body {
     background-size: 300% 300%;
@@ -133,24 +109,7 @@ i {
     width: 50%;
   }
 
-  .nav-des {
-    top: 1.5rem;
-    left: 16rem;
-  }
-
-  nav a {
-    position: relative;
-    color: white !important;
-    font-size: 10px;
-    text-align: left;
-    color: white;
-    margin-right: -4%;
-  }
-
-  nav a:hover {
-    color: rgb(14, 232, 248) !important;
-    transition: all 0.3s ease;
-  }
+ 
 
   #timer {
     margin-top: -20px;
@@ -179,10 +138,7 @@ i {
     font-size: 14px;
   }
 
-  .nav-des {
-    top: 1.5rem;
-    left: -40rem;
-  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -200,14 +156,7 @@ i {
     font-size: 14px;
   }
 
-  .nav-des {
-    top: 2rem;
-    left: 25rem;
-  }
-
-  nav a {
-    font-size: 10px;
-  }
+ 
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
@@ -224,12 +173,5 @@ i {
     font-size: 14px;
   }
 
-  .nav-des {
-    top: 2rem;
-    left: 10rem;
-  }
-
-  nav a {
-    font-size: 10px;
-  }
+ 
 }

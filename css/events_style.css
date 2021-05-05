@@ -56,14 +56,14 @@ body {
 }
  */
 
-body {
+ body {
   
   background: black;
   background-repeat:repeat !important;
   background-image: linear-gradient(to right top, hsla(240, 4%, 20%, 0.5), rgb(24, 7, 24));
   overflow-y: visible;
   background-image: -moz-linear-gradient(to right top, hsla(0, 37%, 7%, 0.5), rgb(5, 2, 2));
-}
+} 
 
 p{
   text-align:center;

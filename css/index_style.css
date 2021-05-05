@@ -20,6 +20,100 @@ body {
   justify-content: center;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+.hero {
+  /* background-color: #2f55d3; */
+  /* background-image:  radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);*/
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: relative; 
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero__title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  z-index: 1;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px#fff;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  -webkit-animation: cube 12s ease-in forwards infinite;
+          animation: cube 12s ease-in forwards infinite;
+}
+.cube:nth-child(2n) {
+  border-color: #031331;
+}
+.cube:nth-child(2) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+.cube:nth-child(3) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+.cube:nth-child(4) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+.cube:nth-child(5) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+.cube:nth-child(6) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+
+@-webkit-keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
+
+
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -71,7 +165,7 @@ body {
   font-weight: 500;
 }
 
- .infotrek-main {
+ .infotrek-main h1{
   position: relative;
   top: 20%;
   left: 28rem;
@@ -82,7 +176,7 @@ body {
   animation-timing-function: linear;
 }
 
-.infotrek-main img {
+.infotrek-main h1 img {
   height: 20vh;
   width: 40vw;
 }
@@ -104,6 +198,15 @@ body {
     width: 50%;
   }
 
+  .infotrek-main{
+    margin-left: -2rem;
+  }
+
+  .infotrek-main img{
+    margin-top: -2rem;
+    margin-left: -24rem;
+    width: 60%;
+  }
  
 
   #timer {
@@ -133,6 +236,17 @@ body {
     font-size: 14px;
   }
 
+  .infotrek-main{
+    margin-left: -2rem;
+  }
+
+  .infotrek-main h1 img{
+    margin-top: -2rem;
+    margin-left: -24rem;
+    width: 60%;
+  }
+ 
+
 
 }
 
@@ -151,6 +265,17 @@ body {
     font-size: 14px;
   }
 
+  .infotrek-main{
+    margin-left: -2rem;
+  }
+
+  .infotrek-main img{
+    margin-top: -2rem;
+    margin-left: -24rem;
+    width: 60%;
+  }
+ 
+
  
 }
 
@@ -167,6 +292,18 @@ body {
   #timer div span {
     font-size: 14px;
   }
+
+  .infotrek-main{
+    margin-left: -1rem;
+  }
+
+  .infotrek-main img{
+    margin-top: -2rem;
+    margin-right: -15rem;
+    width: 60%;
+  }
+ 
+
 
  
 }
