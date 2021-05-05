@@ -112,6 +112,7 @@ body {
   margin-top: 4%;
   margin-bottom: 0.1rem;
   color: #fff;
+  list-style-type: none;
 }
 
 #dropdownMenu2 {
@@ -194,10 +195,11 @@ body {
 
 .front,
 .back {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
@@ -209,7 +211,11 @@ body {
   background-size: cover;
   background: #fff;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
+  transform:rotateY(0deg);
+  -webkit-transform:rotateY(0deg);
+  -moz-transform:rotateY(0deg);
   border-radius: 5px;
   box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -224,6 +230,7 @@ body {
   background: url("../images/back.jpg") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
   border-top-right-radius: 5px;
@@ -247,6 +254,7 @@ body {
   border-radius: 60%;
   border: 5px solid lightyellow;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
@@ -260,6 +268,7 @@ body {
   /* font-family: "Montserrat"; */
   font-size: 16px;
   -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .front__text .front__text-header {
@@ -337,6 +346,12 @@ body {
   top: -5px;
   color: rgb(214, 10, 204);
 }
+@media screen and (max-width: 1024px) {
+  .dropdown {
+    margin-top: 1rem;
+    margin-left: 15rem;
+  }
+}
 
 @media screen and (max-width: 800px) {
 
@@ -361,7 +376,7 @@ body {
   }
   .toggle-button {
     display: flex;
-    margin-right: -6rem;
+    margin-right: 1rem;
   }
 
   .navbar-links {
@@ -377,7 +392,7 @@ body {
   .navbar-links li {
     text-align: right;
     font-size: 0.2px;
-    margin-right: -6rem;
+    margin-right: 1rem;
     color: white;
   }
 
@@ -401,8 +416,8 @@ body {
   }
   
   .dropdown {
-    margin-top: -3rem;
-    margin-left: -7rem;
+    margin-top: 1rem;
+    margin-left: 10rem;
   }
   
   #dropdownMenu2{
@@ -422,7 +437,7 @@ body {
   }
 
   .container1 {
-    margin-left: 8rem;
+    margin-left: 4rem;
   }
 
   
