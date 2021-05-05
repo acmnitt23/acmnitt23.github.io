@@ -3,10 +3,10 @@
 
 
 body {
-  /* margin: 0px;
-  overflow-y: inherit;*/
+  /* margin: 0px;*/
+  overflow-x: hidden;
   overflow-wrap: normal;
-  background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
+  background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b; 
@@ -142,6 +142,7 @@ body {
   color: rgb(214, 10, 204) !important;
   background-color: transparent;
   width: fit-content;
+  cursor: pointer;
 }
 
 #team {
