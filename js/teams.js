@@ -550,7 +550,7 @@ function func21(){
        <div class="inner-div">
          <div class="front">
            <div class="front__bkg-photo"></div>
-           <div class="front__face-photo" style="background: url(images/Batch2k21/Ravina.png) no-repeat; background-size: contain;"></div>
+           <div class="front__face-photo" style="background: url(images/Batch2k21/Ravina.jpg) no-repeat; background-size: contain;"></div>
            <div class="front__text">
              <h3 class="front__text-header">Ravina Verma</h3>
              <p class="front__text-para"></p>
@@ -571,7 +571,7 @@ function func21(){
            <div class="inner-div">
              <div class="front">
                <div class="front__bkg-photo"></div>
-               <div class="front__face-photo" style="background: url(images/Batch2k21/YashKumarSinghal.png) no-repeat; background-size: contain;"></div>
+               <div class="front__face-photo" style="background: url(images/Batch2k21/YashKumarSinghal.jpg) no-repeat; background-size: contain;"></div>
                <div class="front__text">
                  <h3 class="front__text-header">Yash Kumar Singhal</h3>
                  <p class="front__text-para"></p>
@@ -591,7 +591,7 @@ function func21(){
                <div class="inner-div">
                  <div class="front">
                    <div class="front__bkg-photo"></div>
-                   <div class="front__face-photo" style="background: url(images/Batch2k21/Yugansh.png) no-repeat; background-size: contain;"></div>
+                   <div class="front__face-photo" style="background: url(images/Batch2k21/Yugansh.jpg) no-repeat; background-size: contain;"></div>
                    <div class="front__text">
                      <h3 class="front__text-header">Yugansh Arora</h3>
                      <p class="front__text-para"></p>
@@ -615,7 +615,7 @@ function func21(){
       <div class="inner-div">
         <div class="front">
           <div class="front__bkg-photo"></div>
-          <div class="front__face-photo" style="background: url(images/Batch2k21/amit.png) no-repeat; background-size: contain;" ></div>
+          <div class="front__face-photo" style="background: url(images/Batch2k21/amit.jpg) no-repeat; background-size: contain;" ></div>
           <div class="front__text">
             <h3 class="front__text-header">Amit Sahu</h3>
             <p class="front__text-para"></p>
@@ -636,7 +636,7 @@ function func21(){
           <div class="inner-div">
             <div class="front">
               <div class="front__bkg-photo"></div>
-              <div class="front__face-photo" style="background: url(images/Batch2k21/nikki_singh.png) no-repeat; background-size: contain;"></div>
+              <div class="front__face-photo" style="background: url(images/Batch2k21/nikki_singh.jpg) no-repeat; background-size: contain;"></div>
               <div class="front__text">
                 <h3 class="front__text-header">Nikki Singh</h3>
                 <p class="front__text-para"></p>
@@ -656,7 +656,7 @@ function func21(){
               <div class="inner-div">
                 <div class="front">
                   <div class="front__bkg-photo"></div>
-                  <div class="front__face-photo" style="background: url(images/Batch2k21/Preeti_Jatav.png) no-repeat; background-size: contain;"></div>
+                  <div class="front__face-photo" style="background: url(images/Batch2k21/Preeti_Jatav.jpg) no-repeat; background-size: contain;"></div>
                   <div class="front__text">
                     <h3 class="front__text-header">Preeti Jatav</h3>
                     <p class="front__text-para"></p>

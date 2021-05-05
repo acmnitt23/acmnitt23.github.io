@@ -6,7 +6,7 @@ body {
   /* margin: 0px;
   overflow-y: inherit;*/
   overflow-wrap: normal;
-  background-color: black;
+  background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b; 
