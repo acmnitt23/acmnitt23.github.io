@@ -20,19 +20,22 @@ body {
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  background: #000046; 
+  /* background: #000046; 
   background: -webkit-linear-gradient(
     to right,
     #1cb5e0,
     #000046
   ); 
   background: linear-gradient(
-    to right,
+    to left,
     #1cb5e0,
     #000046
-  ); 
+  );   */
 
-  position: relative;
+  background: #000046;
+    background: -webkit-linear-gradient( to right, #1cb5e0, #000046 );
+    background: linear-gradient( to right, #792a2a, #101044 );
+ position: relative;
   height: 100vh;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
@@ -72,8 +75,8 @@ body {
 .cube:nth-child(3) {
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
-  left: 75vw;
-  top: 50vh;
+  left: 35vw;
+  top: 10vh;
 }
 .cube:nth-child(4) {
   border: solid 1px#fff;
@@ -350,7 +353,7 @@ body {
 @media screen and (min-width: 800px) and (max-width: 1024px) {
 
   #cs{
-    margin-left: 50rem;
+    margin-left: 20%;
     margin-top: 30rem;
   }
 

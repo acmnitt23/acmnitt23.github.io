@@ -142,14 +142,14 @@ body {
 .navbar-links li a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color:rgb(241, 52, 241);
   padding: 1rem;
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
 }
 
 .navbar-links :hover {
-  color: rgb(14, 232, 248) !important;
+  color: rgb(237, 244, 245) !important;
   transition: all 0.3s ease;
 }
 
