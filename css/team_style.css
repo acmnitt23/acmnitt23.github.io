@@ -94,7 +94,7 @@ body {
 
 
 .container1 {
-  width: 100%;
+  /* width: 100%; */
   margin-left: 2.5rem;
   margin-right: 2rem;
   align-items: center;
@@ -438,6 +438,7 @@ body {
 
   .container1 {
     margin-left: 4rem;
+    
   }
 
   
