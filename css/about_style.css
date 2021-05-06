@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+
+body {
+    background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);
+    background-position: center;
+    font-family: Blinker, sans-serif;
+    color: white;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 70% 100%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading h1{
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+p {
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+    p {
+        font-size: 1.3em;
+        text-align: left;
+        padding-left: 15px;
+    }
+}
