@@ -3,7 +3,7 @@
 
 
 body {
-  /* margin: 0px;*/
+  
   overflow-x: hidden;
   overflow-wrap: normal;
   background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);
@@ -94,7 +94,7 @@ body {
 
 
 .container1 {
-  /* width: 100%; */
+  
   margin-left: 2.5rem;
   margin-right: 2rem;
   align-items: center;
@@ -273,7 +273,6 @@ body {
 }
 .front__text .front__text-header {
   font-weight: 500;
-  /* font-family: "Oswald"; */
   text-transform: none;
   font-size: 18px;
 }
@@ -284,8 +283,8 @@ body {
   font-size: 14px;
   letter-spacing: 0.4px;
   font-weight: 400;
-  /* font-family: "Montserrat", sans-serif; */
 }
+
 .front__text .front-icons {
   position: relative;
   top: 0;
