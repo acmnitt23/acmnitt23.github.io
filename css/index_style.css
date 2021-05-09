@@ -149,7 +149,7 @@ body {
   display: grid;
   place-content: center;
   border: 3px solid rgb(184, 176, 176);
-  border-radius: 20%;
+  border-radius: 50%;
   margin: 0 1em;
   height: 80px;
   width: 80px;
