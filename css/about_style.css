@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
 
 body {
-    /* background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);*/
-    /* background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
-   */
-   background-image: linear-gradient(to right, rgb(123, 34, 126), rgb(26, 27, 77));
-
+    background-image: linear-gradient(to right, rgb(123, 34, 126), rgb(26, 27, 77));
     background-position: center;
     font-family: Blinker, sans-serif;
     color: white;

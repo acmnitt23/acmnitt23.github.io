@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
 
 body {
-  background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);
+  background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
   animation: gradient 10s ease infinite;
   font-family: Blinker, sans-serif;
   color: #0c222b;
@@ -150,7 +150,7 @@ body {
 }
 
 .fas:hover{
-  color: rgb(179, 211, 189) !important;
+  color: rgb(87, 177, 115) !important;
 }
 
 .fab {
@@ -161,7 +161,7 @@ body {
 }
 
 .fab:hover{
-  color:  rgb(180, 206, 187) !important;
+  color: rgb(87, 177, 115) !important;
 }
 
 @media screen and (max-width: 800px) {

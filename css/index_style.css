@@ -20,21 +20,9 @@ body {
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  /* background: #000046; 
-  background: -webkit-linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); 
-  background: linear-gradient(
-    to left,
-    #1cb5e0,
-    #000046
-  );   */
-
   background: #000046;
   background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
-  background: linear-gradient(to right, #792a2a, #101044);
+  background: linear-gradient(to right,  #7e2c13, rgb(88, 31, 86), #101044);
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -63,21 +51,25 @@ body {
   -webkit-animation: cube 12s ease-in forwards infinite;
   animation: cube 12s ease-in forwards infinite;
 }
+
 .cube:nth-child(2n) {
   border-color: #6b778d;
 }
+
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   left: 25vw;
   top: 40vh;
 }
+
 .cube:nth-child(3) {
   -webkit-animation-delay: 4s;
   animation-delay: 4s;
   left: 35vw;
   top: 10vh;
 }
+
 .cube:nth-child(4) {
   border: solid 1px#fff;
   -webkit-animation-delay: 6s;
@@ -141,6 +133,37 @@ body {
   }
 }
 
+.hero .timer {
+  display: flex;
+  place-content: center;
+  padding: 2rem;
+  margin-top: 23%;
+  margin-left: 2%;
+}
+.hero .timer .count {
+  display: grid;
+  place-content: center;
+  
+}
+.hero .timer span {
+  display: grid;
+  place-content: center;
+  border: 3px solid rgb(184, 176, 176);
+  border-radius: 20%;
+  margin: 0 1em;
+  height: 80px;
+  width: 80px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.4rem;
+  color: white;
+}
+.hero .timer p {
+  color: white;
+  margin-left: 28%;
+}
+
+
 #page-wrap {
   width: 800px;
   margin: 0 auto;
@@ -157,25 +180,7 @@ body {
   width: 12%;
 }
 
-#timer div {
-  background-color: rgba(12, 8, 8, 0.863);
-  color: #ffffff;
-  width: 105px;
-  height: 105px;
-  border-radius: 5px;
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 20%;
-  margin-left: 10px;
-  margin-right: 10px;
-  box-shadow: 2px 4px 4px rgb(221, 236, 235);
-}
-#timer div span {
-  display: block;
-  margin-top: -2px;
-  font-size: 15px;
-  font-weight: 500;
-}
+
 .infotrek-main {
   position: fixed;
 }
@@ -183,7 +188,7 @@ body {
 .infotrek-main h1 {
   position: fixed;
   top: 35%;
-  left: 28rem;
+  left: 27rem;
 }
 
 .infotrek-main #cs {
@@ -191,7 +196,7 @@ body {
 }
 
 .infotrek-main h1 img {
-  animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+  animation: shakeX; 
   animation-duration: 4s !important;
   animation-delay: 2s;
   animation-fill-mode: both;
@@ -208,7 +213,7 @@ body {
   width: 30%;
   height: 10%;
   font-family: Blinker, sans-serif;
-  animation: flash; /* referring directly to the animation's @keyframe declaration */
+  animation: flash; 
   animation-duration: 2s !important;
   animation-delay: 5s;
   animation-fill-mode: both;
@@ -253,24 +258,31 @@ body {
     font-size: 1rem;
   }
 
-  #timer {
-    margin-top: -20px;
-  }
-  #timer div {
-    width: 70px;
-    height: 70px;
-    font-size: 32px;
-    margin-top: 20px;
-  }
-  #timer div span {
-    font-size: 14px;
-  }
-
   .navbar-links li a {
     font-size: 0.1rem;
   }
+
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+    margin-top: 24rem;
+  }
+  .hero .timer .count p {
+    font-size: 0.81rem;
+    margin-left: 20%;
+  }
+  .hero .timer .count span {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0.5em 1em;
+    font-size: 1rem;
+  }
+
 }
-@media screen and (max-width: 315px) and (max-width: 600px) {
+@media screen and (min-width: 315px) and (max-width: 400px) {
   #cs {
     top: 20rem;
     margin-top: 2rem;
@@ -278,19 +290,7 @@ body {
     position: fixed;
     height: 25%;
   }
-  #timer {
-    margin-bottom: -20rem;
-  }
-  #timer div {
-    width: 70px;
-    height: 70px;
-    font-size: 32px;
-    margin-top: -15rem;
-  }
-  #timer div span {
-    font-size: 14px;
-  }
-
+  
   .infotrek-main {
     margin-left: -2rem;
   }
@@ -304,6 +304,27 @@ body {
   .navbar-links li a {
     font-size: 1rem;
   }
+
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 30%;
+    right: 8.5%;
+    margin-top: 24rem;
+  }
+  .hero .timer .count p {
+    font-size: 0.81rem;
+    margin-left: 1rem;
+  }
+  .hero .timer .count span {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0.5em 1em;
+    font-size: 1rem;
+  }
+
+
 }
 
 @media only screen and (min-width: 412px) and (orientation: portrait) 
@@ -324,20 +345,6 @@ body {
     margin-left: 15%;
     position: fixed;
     height: 7%;
-  }
-
-  #timer {
-    margin-bottom: -20rem;
-    margin-left: 4rem;
-  }
-  #timer div {
-    width: 70px;
-    height: 70px;
-    font-size: 32px;
-    margin-top: -15rem;
-  }
-  #timer div span {
-    font-size: 14px;
   }
 
   .infotrek-main {
@@ -380,37 +387,34 @@ body {
     margin-top: 10rem;
   }
    
-  .infotrek-main {
-    left: -3rem !important;
+  .infotrek-main h1{
+    left: 15rem;
+    
   }
 
-  #timer {
-    margin-bottom: -15rem;
-  }
-  #timer div {
-    width: 120px;
-    height: 120px;
-    font-size: 32px;
-    margin-top: -25rem;
-  }
-  #timer div span {
-    font-size: 14px;
-  }
-
-  /* .infotrek-main h1{
-    margin-right: -30rem;
-  }
-
-  .infotrek-main h1 img{
-    margin-top: -2rem;
-    margin-right: 10rem;
-    width: 40vh;
-  }
-  */
   
   .infotrek-main h1 img {
-    margin-top: -1rem;
-    margin-right: 30%;
-    width: 40vh;
+    margin-top: -4rem;
+    margin-right: 120%;
+    width: 60vw;
+  }
+
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 40%;
+    right: 30%;
+    margin-top: 24rem;
+  }
+  .hero .timer .count p {
+    font-size: 0.81rem;
+    margin-left: 2rem;
+  }
+  .hero .timer .count span {
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    margin: 0.5em 1em;
+    font-size: 1rem;
   }
 }

@@ -69,6 +69,14 @@
         #acm {
           display: none;
         }
+
+        .navbar-brand{
+          display: none;
+        }
+
+        .navbar-links ul{
+          margin-top: 20%;
+        }
         .row .stv {
           position: fixed;
           margin-bottom: -65%;
@@ -78,13 +86,6 @@
     </style>
   </head>
   <body>
-    <!-- <div id="overlayer"></div>
-  <center>
-  <span class="loader">
-    <span class="loader-inner"></span>
-  </span>
-  </center> -->
-
     <div class="hero">
       <div class="hero__title"></div>
       <div class="cube"></div>
@@ -112,12 +113,12 @@
 
         <div class="navbar-links">
           <ul>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="registration.html">Registration</a></li>
-            <li><a href="contact.html">Contact </a></li>
-            <li><a href="team.html">Our team</a></li>
-            <li><a href="about.html"> About Us </a></li>
+                 <li><a href="about.html"> About Us </a></li>  
+                  <li><a href="events.html" >Events</a></li>
+                  <li><a href="registration.html" >Registration</a></li>
+                  <li><a href="gallery.html" >Gallery</a></li>
+                  <li><a href="team.html">Our Team</a></li>
+                  <li><a href="contact.html" >Contact </a></li>
           </ul>
         </div>
       </nav>
@@ -135,14 +136,24 @@
         /> -->
         <!-- <h1 class="animate__animated animate__shakeX animate__slower animate__infinite"><img id="cs" src="images/Coming Soon.png" /></h1> -->
       </span>
-
-      <!-- <div id="timer" class="flex-wrap d-flex justify-content-center" style="color: aliceblue;">
-    <div id="days" class="align-items-center flex-column d-flex justify-content-center"></div>
-    <div id="hours" class="align-items-center flex-column d-flex justify-content-center"></div>
-    <div id="minutes" class="align-items-center flex-column d-flex justify-content-center"></div>
-    <div id="seconds" class="align-items-center flex-column d-flex justify-content-center"></div>
-  </div> -->
-
+      <div class="timer">
+        <div class="count">
+          <span id="days">00</span> <br>
+          <p>DAYS</p>
+        </div>
+        <div class="count">
+          <span id="hour">00</span> <br>
+          <p>HOURS</p>
+        </div>
+        <div class="count">
+          <span id="min">00</span> <br>
+          <p>MIN</p>
+        </div>
+        <div class="count">
+          <span id="sec">00</span> <br>
+          <p>SEC</p>
+        </div>
+      </div>
       <div
         class="row"
         style="align-items: center; top: 60%; left: 6%; position: fixed"
@@ -200,26 +211,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <script>
-      var loader = document.getElementById('loader-wrapper');
-      document.addEventListener("DOMContentLoaded", function() {
-     
-    loadNow(1);
-    });
-      function loadNow(opacity) {
-        if (opacity <= 0) {
-        displayContent();
-    } else {
-        loader.style.opacity = opacity;
-        window.setTimeout(function() {
-            loadNow(opacity - 0.05);
-        }, 100);}
-    }
-    function displayContent() {
-    loader.style.display = 'none';
-    document.getElementById('page-wrap').style.display = 'block';
-}  </script>  -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
       type="text/javascript"
