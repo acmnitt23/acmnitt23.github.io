@@ -137,8 +137,8 @@ body {
   display: flex;
   place-content: center;
   padding: 2rem;
-  margin-top: 23%;
-  margin-left: 1%;
+  margin-top: 20%;
+  margin-left: -5%;
 }
 .hero .timer .count {
   display: grid;

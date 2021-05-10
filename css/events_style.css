@@ -228,9 +228,21 @@ p{
   font-size: 85px;
   background: linear-gradient(to right, #0d0f30 0%, #f18ad1 100%);
   text-shadow: -1px -1.5px rgb(228, 175, 77), 1.5px 2px hsla(0,0%,5%,0.5);
+  background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.heading h2 {
+  font-size: 55px;
+  background: linear-gradient(to right, #0d0f30 0%, #f18ad1 100%);
+  text-shadow: -1px -1.5px rgb(228, 175, 77), 1.5px 2px hsla(0,0%,5%,0.5);
+  background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  margin-bottom: 15%;
   margin-top: 5%;
 }
 
@@ -251,7 +263,7 @@ p{
 }
 
 .card {
-  margin: 10px 10px 65px 50px;
+  margin: 10px 10px 10px 30px;
   background-color: #0d0c0e!important;  
   
   width: 20rem;

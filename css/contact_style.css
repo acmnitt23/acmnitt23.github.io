@@ -66,6 +66,11 @@ body {
   height: 25rem;
 }
 
+#deepeeka {
+  width: 23rem;
+  height: 25rem;
+}
+
 .container .card .content {
   position: absolute;
   bottom: -160px;

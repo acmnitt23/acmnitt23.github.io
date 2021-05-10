@@ -56,14 +56,10 @@ h1::before {
 .container img {
   width: 100%;
   display: block;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
   transition: all 100ms ease-out;
 }
 .container img:hover {
   transform: scale(1.04);
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
 }
 
 @media screen and (max-width: 600px) {
