@@ -427,6 +427,26 @@ body {
   }
 }
 
+@media screen and (width: 1280px) and (height: 610px){
+  
+  .infotrek-main h1{
+    left: 25rem;
+    
+  }
+ 
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 22%;
+    right: 32%;
+    margin-top: 24rem;
+  }
+
+
+}
+
+
+
 @media screen and (width: 1280px) and (height: 950px){
 
   .infotrek-main h1{
