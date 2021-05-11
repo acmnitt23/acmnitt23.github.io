@@ -31,7 +31,7 @@ p{
 
 .hero {
   position: relative;
-  height: 200vh;
+  height: 150vh;
   overflow-wrap: normal;
   /* overflow-y: scroll; */
   font-family: "Montserrat", sans-serif;
@@ -79,7 +79,7 @@ p{
   -webkit-animation-delay: 6s;
   animation-delay: 6s;
   left: 90vw;
-  top: 170vh;
+  top: 140vh;
 }
 .cube:nth-child(5) {
   border: solid 1px#fff;
@@ -107,7 +107,7 @@ p{
   -webkit-animation-delay: 5s;
   animation-delay: 5s;
   left: 70vw;
-  top: 120vh;
+  top: 90vh;
 }
 
 .cube:nth-child(9) {
@@ -115,7 +115,7 @@ p{
   -webkit-animation-delay: 7s;
   animation-delay: 7s;
   left: 60vw;
-  top: 250vh;
+  top: 130vh;
 }
 
 .cube:nth-child(10) {
@@ -130,7 +130,7 @@ p{
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
   left: 50vw;
-  top: 200vh;
+  top: 100vh;
 }
 
 
