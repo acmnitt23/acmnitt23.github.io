@@ -12,7 +12,6 @@
   background-repeat:repeat !important;
   background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
   overflow-y: visible;
-  background-image: -moz-linear-gradient(to right top, hsla(0, 37%, 7%, 0.5), rgb(5, 2, 2));
 } 
 
 p{
@@ -260,11 +259,11 @@ p{
 .row {
   position: relative;
   top: 50%;
-  left: 20%;
+  left: 13%;
 }
 
 .card {
-  margin: 10px 5px 5px 10px;
+  margin: 10px 20% 5px 20%;
   background-color: #0d0c0e!important;  
   margin-bottom: 25%;
   width: 20rem;
@@ -317,6 +316,14 @@ p{
   color: #fff !important;
 }
 
+.mid {
+  margin-left: 40% !important;
+  margin-right: 30% !important;
+}
+
+.right {
+  margin-left: 60% !important;
+}
 
 #card-img {
   height: 250px;
@@ -340,6 +347,97 @@ p{
   height:30% !important;
 }
 
+.codigo {
+  margin-left: 15%;
+  width:75% !important; 
+  height: 100vh !important;
+}
+
+.letter {
+  margin-left: 10%; 
+  width: 70% !important; 
+  height: 100vh !important; 
+}
+
+.blind {
+  width: 90% !important; 
+  height: 100vh !important; 
+  margin-left: 8% !important;
+  margin-top: -5% !important;
+
+}
+
+.surprise {
+  margin-top: 15% !important; 
+  margin-left: 25% !important;
+  width:50% !important; 
+  height: 100vh !important;
+}
+
+.arsenal {
+  margin-top: 18% !important; 
+  height: 100vh !important;
+}
+
+.clueminati {
+  margin-left: 20% !important;
+  width:65% !important; 
+  height: 100vh !important;
+}
+
+.surprise-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:70% !important;
+}
+
+.clueminati-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
+
+.letter-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
+
+.blind-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:35% !important;
+}
+
+.codigo-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
+
+.housie-modal {
+  margin-left:15%;
+  width:80% !important;
+  height:50% !important;
+}
+
+.code-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
+
+.meme-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
+
+.arsenal-modal {
+  margin-left:15%;
+  width:70% !important;
+  height:40% !important;
+}
 
 #housie{
   left: 33% !important;
@@ -364,6 +462,9 @@ p{
     font-size: 2.5rem;
   }
 
+  .mid {
+    margin-right: 50%;
+  }
 
 #housie{
   left: 1% !important;
