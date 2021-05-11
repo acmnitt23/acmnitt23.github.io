@@ -354,3 +354,18 @@ p{
     font-size: 2.5rem;
   }
 }
+
+@media screen and (width: 1280px) and (height: 950px){
+
+.container {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -10% !important;
+  margin-right: -5% !important;
+}
+
+}
