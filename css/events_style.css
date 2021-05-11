@@ -253,19 +253,20 @@ p{
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
+  margin-left: -5% !important;
+  margin-right: -5% !important;
 }
 
 .row {
   position: relative;
   top: 50%;
-  left: 4.5%;
+  left: 28%;
 }
 
 .card {
-  margin: 10px 10px 10px 30px;
+  margin: 10px 5px 10px 30px;
   background-color: #0d0c0e!important;  
-  
+  margin-bottom: 25%;
   width: 20rem;
   height: 20rem;
   font-family: "Courier New", Courier, monospace;
@@ -350,6 +351,6 @@ p{
   }
 
   .heading h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }

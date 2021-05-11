@@ -21,8 +21,9 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   background: #000046;
-  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
-  background: linear-gradient(to right,  #7e2c13, rgb(88, 31, 86), #101044);
+  /* background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right,  #7e2c13, rgb(88, 31, 86), #101044); */
+  background-image: radial-gradient(circle, #361471, #002a71, #003162, #00324d, #053139);
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -137,8 +138,9 @@ body {
   display: flex;
   place-content: center;
   padding: 2rem;
-  margin-top: 20%;
-  margin-left: -5%;
+  margin-top: 24%;
+  margin-left: 2%;
+  
 }
 .hero .timer .count {
   display: grid;
@@ -148,15 +150,16 @@ body {
 .hero .timer span {
   display: grid;
   place-content: center;
-  border: 3px solid rgb(184, 176, 176);
+  border: 3px solid rgb(247, 230, 230);
   border-radius: 60%;
-  margin: 0 1em;
+  margin: 0 0.5em;
   height: 80px;
   width: 80px;
   font-family: sans-serif;
   font-weight: 100;
   font-size: 1.4rem;
   color: white;
+  background-color: rgb(108, 159, 180);
 }
 .hero .timer p {
   color: white;
@@ -266,19 +269,23 @@ body {
     padding: 0;
     position: fixed;
     bottom: 30%;
-    right: 10%;
+    right: 18%;
     margin-top: 24rem;
+    
   }
   .hero .timer .count p {
     font-size: 0.81rem;
-    margin-left: 20%;
+    margin-left: 10%;
+    
   }
   .hero .timer .count span {
     height: 50px;
     width: 50px;
     padding: 0;
-    margin: 0.5em 1em;
+    /* margin: 0.5em 1em; */
+    margin: 0 0.5em;
     font-size: 1rem;
+   
   }
 
 }
@@ -292,12 +299,12 @@ body {
   }
   
   .infotrek-main {
-    margin-left: -2rem;
+    margin-left: 5rem;
   }
 
   .infotrek-main h1 img {
     margin-top: -2rem;
-    margin-left: -24rem;
+    margin-left: -20rem;
     width: 70%;
   }
 
@@ -309,18 +316,19 @@ body {
     padding: 0;
     position: fixed;
     bottom: 30%;
-    right: 8.5%;
+    right: 12%;
     margin-top: 24rem;
   }
   .hero .timer .count p {
     font-size: 0.81rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
   .hero .timer .count span {
     height: 40px;
     width: 40px;
     padding: 0;
-    margin: 0.2em 0.1em;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
     font-size: 1rem;
   }
 
@@ -348,12 +356,12 @@ body {
   }
 
   .infotrek-main {
-    margin-left: -2rem;
+    margin-left: 0rem;
   }
 
   .infotrek-main h1 img {
     margin-top: -1rem;
-    margin-left: -25rem;
+    margin-left: -23.5rem;
     width: 70vw;
   }
 
