@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
   font-family: Blinker, sans-serif;
@@ -43,6 +43,7 @@ body {
 
 .navbar-brand img {
   margin-top: -1rem;
+  margin-left: 2rem !important;
   width: 150px;
   height: 50px;
 }
@@ -99,16 +100,16 @@ body {
 
 .event-page {
   margin-bottom: 2rem;
-  font-size: 6vh;
+  font-size: 3vw;
   color: #fff;
   text-align: center;
   letter-spacing: 0.3rem;
-  font-family: Blinker, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .box{
 
-  font-family: 'Montserrat';
+  font-family: 'Montserrat' !important;
   width: 400px;
  
   padding: 40px;
@@ -124,6 +125,7 @@ body {
   background: #191919;
   border-radius: 5%;
   text-align: center;
+
  
 }
 
@@ -131,9 +133,9 @@ body {
  .box h1{
  
   color: white;
-  font-size: 2.7em;
+  font-size: 2.4em;
   text-transform: uppercase;
-  margin-left: 2%;
+  margin-left: -3%;
   font-weight: 500;
   margin-bottom: 25%;
  
@@ -164,6 +166,8 @@ body {
   border-radius: 24px;
  
   transition: 0.25s;
+
+  
  
  }
  

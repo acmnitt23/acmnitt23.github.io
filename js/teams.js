@@ -68,7 +68,7 @@ function func23(){
          <div class="inner-div">
            <div class="front">
              <div class="front__bkg-photo"></div>
-             <div class="front__face-photo" style="background: url(images/Batch2k23/SimranGarg.jpeg) no-repeat; background-size: contain; padding-top: 1%;"></div>
+             <div class="front__face-photo" style="background: url(images/Batch2k23/simran.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
              <div class="front__text">
                <h3 class="front__text-header">Simran Garg</h3>
                

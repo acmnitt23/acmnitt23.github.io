@@ -3,7 +3,7 @@ let h = document.getElementById("hour");
 let m = document.getElementById("min");
 let s = document.getElementById("sec");
 
-let count = new Date("22 may ,2021 10:00:00").getTime();
+let count = new Date('2021-05-19T10:00:00').getTime();
 
 let x = setInterval(function () {
   let now = new Date().getTime();

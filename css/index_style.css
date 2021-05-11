@@ -199,11 +199,11 @@ body {
 }
 
 .infotrek-main h1 img {
-  animation: shakeX; 
+  /* animation: shakeX; 
   animation-duration: 4s !important;
   animation-delay: 2s;
   animation-fill-mode: both;
-  animation-timing-function: linear;
+  animation-timing-function: linear; */
   height: 20vh;
   width: 40vw;
 }
@@ -258,7 +258,7 @@ body {
   }
 
   .navbar-links li a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .navbar-links li a {
@@ -309,7 +309,7 @@ body {
   }
 
   .navbar-links li a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .hero .timer {
@@ -366,7 +366,7 @@ body {
   }
 
   .navbar-links li a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -499,3 +499,4 @@ body {
     font-size: 1rem;
   }
 }
+

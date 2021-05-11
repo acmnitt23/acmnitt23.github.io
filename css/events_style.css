@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
  html,body {
@@ -251,7 +251,7 @@ p{
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center !important;
   flex-wrap: wrap;
   margin-left: -5% !important;
   margin-right: -5% !important;
@@ -260,16 +260,16 @@ p{
 .row {
   position: relative;
   top: 50%;
-  left: 28%;
+  left: 20%;
 }
 
 .card {
-  margin: 10px 5px 10px 30px;
+  margin: 10px 5px 5px 10px;
   background-color: #0d0c0e!important;  
   margin-bottom: 25%;
   width: 20rem;
   height: 20rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Montserrat', Courier, monospace;
   font-weight: bolder;
   padding-top: 12px;
   text-align: center;
@@ -313,7 +313,7 @@ p{
   font-weight: bold;
   letter-spacing: 0.1rem;
   text-align:center;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Montserrat', cursive;
   color: #fff !important;
 }
 
@@ -338,11 +338,19 @@ p{
   padding-bottom: 5%;
 }
 
+
+#housie{
+  left: 33% !important;
+}
+
+#photo{
+  right: 2% !important;
+}
 @media screen and (max-width: 800px) {
  
 
-  .row{
-    left: 0.4rem;
+  .container{
+    left: -3rem;
   }
 
 
@@ -353,6 +361,16 @@ p{
   .heading h1{
     font-size: 2.5rem;
   }
+
+
+#housie{
+  left: 1% !important;
+  
+}
+
+#photo{
+  right: 1% !important;
+}
 }
 
 
