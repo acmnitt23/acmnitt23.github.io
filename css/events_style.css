@@ -332,10 +332,12 @@ p{
 }
 
 .modal-img {
-  width: 90%;
-  height: 250px;
+ 
   padding-left: 5%;
   padding-bottom: 5%;
+  margin-left:15%;
+  width:70% !important;
+  height:70% !important;
 }
 
 
