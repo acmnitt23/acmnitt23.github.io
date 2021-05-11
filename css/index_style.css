@@ -275,7 +275,7 @@ body {
   }
   .hero .timer .count p {
     font-size: 0.81rem;
-    margin-left: 10%;
+    margin-left: 22% !important;
     
   }
   .hero .timer .count span {
@@ -321,7 +321,8 @@ body {
   }
   .hero .timer .count p {
     font-size: 0.81rem;
-    margin-left: 0.5rem;
+    /* margin-left: 0.2rem; */
+    margin-right: -1rem;
   }
   .hero .timer .count span {
     height: 40px;
@@ -510,6 +511,7 @@ body {
     height: 70px;
     width: 70px;
     padding: 0;
+    margin-left: 1em;
     margin: 0.5em 1em;
     font-size: 1rem;
   }

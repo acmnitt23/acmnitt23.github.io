@@ -93,9 +93,12 @@ body {
   bottom: 0;
   transition-delay: 0s;
 }
+
+
+
 .container .card .content .contentBx h3 {
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(242, 248, 250);
   letter-spacing: 2px;
   font-weight: 500;
   font-size: 18px;
@@ -108,6 +111,7 @@ body {
   opacity: 0;
   transform: translateY(-20px);
 }
+
 .container .card:hover .content .contentBx h3 {
   opacity: 1;
   transform: translateY(0);
@@ -142,7 +146,7 @@ body {
   margin-left: 0.05rem;
 }
 .container .card .content .sci li a i{
-  color: white;
+  color: rgb(241, 233, 233);
   font-size: 24px;
   margin-left: 0.01rem;
 }

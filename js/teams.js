@@ -329,13 +329,13 @@ function func22(){
           </div>
           <div class="back">
             <div class="social-media-wrapper">
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://m.facebook.com/akanksha.phalwadiya" target="_blank" class="social-icon"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.linkedin.com/in/akanksha-phalwadiya-1785811b0" target="_blank" class="social-icon"
                 ><i class="fab fa-linkedin-in" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.instagram.com/akanksha_phalwadiya/" target="_blank" class="social-icon"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
               ></a>
             </div>
@@ -499,13 +499,13 @@ function func22(){
           </div>
           <div class="back">
             <div class="social-media-wrapper">
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.facebook.com/darshni.gupta.1/" target="_blank" class="social-icon"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.linkedin.com/in/darshni-gupta-0867991b6/" target="_blank" class="social-icon"
                 ><i class="fab fa-linkedin-in" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.instagram.com/darshg19/" target="_blank" class="social-icon"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
               ></a>
             </div>
