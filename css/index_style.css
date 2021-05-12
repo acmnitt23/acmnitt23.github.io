@@ -292,6 +292,19 @@ body {
   }
 
 }
+
+@media screen and (max-width:380px){
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 30%;
+    right: 12%;
+    margin-top: 24rem;
+    
+  }  
+}
+
+
 @media screen and (width: 360px) and (height: 640px) {
   #cs {
     width:40%;
