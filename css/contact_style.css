@@ -117,8 +117,8 @@ body {
   transform: translateY(0);
 }
 .container .card .content .contentBx h3 span {
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
   text-transform: initial;
 }
 .container .card .content .sci {

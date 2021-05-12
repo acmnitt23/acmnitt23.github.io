@@ -156,10 +156,10 @@ body {
   height: 80px;
   width: 80px;
   font-family: sans-serif;
-  font-weight: 100;
-  font-size: 1.4rem;
-  color: white;
-  background-color: rgb(108, 159, 180);
+  font-weight: 150;
+  font-size: 1.6rem;
+  color: rgb(10, 10, 10);
+  background-color: rgb(58, 186, 245);
 }
 .hero .timer p {
   color: white;
