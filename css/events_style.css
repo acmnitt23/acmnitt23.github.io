@@ -259,7 +259,7 @@ p{
 .row {
   position: relative;
   top: 50%;
-  left: 13%;
+  left: 10%;
 }
 
 .card {
@@ -451,33 +451,35 @@ p{
 
   .container{
     left: -3rem;
+   
   }
 
 
   .card {
-    margin: 10% auto;
+    margin: 10%;
   }
 
   .heading h1{
     font-size: 2.5rem;
   }
 
-  .mid {
-    margin-right: 50%;
+  .row{
+    left: 3rem;
   }
 
-#housie{
-  left: 1% !important;
-  
-}
+  .mid {
+    right: 30%;
+  }
 
-#photo{
-  right: 1% !important;
-}
-}
+  .right{
+    left: -50%;
+  }
 
 
-@media screen and (width: 1280px) and (height: 610px){
+}
+
+
+@media screen and (width: 1024px) and (min-height: 610px){
 
   .container {
   
@@ -489,11 +491,31 @@ p{
     margin-left: -10% !important;
     margin-right: -5% !important;
   }
-  
+
+  .row{
+    left:8rem;
+  }
+
+  .mid {
+    right: 20%;
+  }
+
+  .right{
+    left: -40%;
   }
 
 
-@media screen and (width: 1280px) and (height: 950px){
+  
+  }
+
+  @media screen and (width: 717px){
+    .row{
+      left:13rem;
+    }
+  }
+
+
+@media screen and (width: 1280px) and (max-height: 950px){
 
 .container {
 
@@ -504,6 +526,10 @@ p{
   flex-wrap: wrap;
   margin-left: -10% !important;
   margin-right: -5% !important;
+}
+
+.row{
+  left:5rem;
 }
 
 }
