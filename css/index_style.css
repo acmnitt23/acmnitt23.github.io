@@ -199,22 +199,22 @@ body {
 }
 
 .infotrek-main h1 img {
-  /* animation: shakeX; 
+  animation: flash; 
   animation-duration: 4s !important;
   animation-delay: 2s;
   animation-fill-mode: both;
-  animation-timing-function: linear; */
+  animation-timing-function: linear;
   height: 20vh;
   width: 40vw;
 }
 
 #cs {
   position: fixed;
-  margin-left: 37%;
-  margin-top: 25%;
+  margin-left: 60%;
+  margin-top: 15%;
   color: white;
   width: 30%;
-  height: 10%;
+  height: 30%;
   font-family: Blinker, sans-serif;
   animation: flash; 
   animation-duration: 2s !important;
@@ -289,13 +289,15 @@ body {
   }
 
 }
-@media screen and (min-width: 315px) and (max-width: 400px) {
+@media screen and (width: 360px) and (height: 640px) {
   #cs {
-    top: 20rem;
-    margin-top: 2rem;
-    margin-left: 9%;
-    position: fixed;
-    height: 25%;
+    width:40%;
+    margin-top: -10%;
+    height: 20%;
+    left: -20%;
+    
+   
+    
   }
   
   .infotrek-main {
@@ -388,13 +390,14 @@ body {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
-
+  #cs{
+    width:40%;
+    margin-top: -10%;
+    height: 20%;
+    left: -20%;
+  }
  
   
-  #cs {
-    margin-left: 20%;
-    margin-top: 10rem;
-  }
    
   .infotrek-main h1{
     left: 15rem;
@@ -484,6 +487,13 @@ body {
 
 @media screen and (width: 1280px) and (height: 950px){
 
+  #cs{
+    width:40%;
+    margin-top: 30%;
+    height: 20%;
+    left: -1%;
+  }
+  
   .infotrek-main h1{
     left: 18rem;
     

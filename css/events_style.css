@@ -529,7 +529,14 @@ p{
 }
 
 .row{
-  left:5rem;
+  left:4.5rem;
 }
 
+}
+
+@media screen and (width: 1366px) and (max-height: 700px){
+
+  .row{
+    left:3.5rem;
+  }
 }
