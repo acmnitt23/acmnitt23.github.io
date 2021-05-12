@@ -21,7 +21,7 @@ body {
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   /* background: #000046; */
-  background-image: url(../images/Cover2\ \(1\).gif);
+  background-image: url(../images/bg1.gif);
   background-size: cover;
   background-repeat: no-repeat;
   /* background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
@@ -161,8 +161,8 @@ body {
   font-family: sans-serif;
   font-weight: 150;
   font-size: 1.6rem;
-  color: rgb(10, 10, 10);
-  background-color: rgb(58, 186, 245);
+  color: white;
+  background-color: transparent;
 }
 .hero .timer p {
   color: white;
