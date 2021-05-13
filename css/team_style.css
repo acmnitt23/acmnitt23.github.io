@@ -6,7 +6,8 @@ body {
   
   overflow-x: hidden;
   overflow-wrap: normal;
-  background-image: radial-gradient(circle, #051937, #001b31, #001b29, #001b20, #031919);
+  background-color: black;
+  /* background-image: radial-gradient(circle, #051937, #001b31, #001b29, #001b20, #031919); */
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b; 
@@ -239,6 +240,7 @@ body {
   width: fit-content;
   height: 150px;
   width: 245px;
+ 
   background: url("../images/back.jpg") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
@@ -315,6 +317,7 @@ body {
   width: 100%;
   background-color: #02080e;
   border-radius: 5px;
+  border: 2px solid white;
   display: flex;
   flex-direction: row;
   justify-content: center;
