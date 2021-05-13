@@ -8,13 +8,22 @@
  html,body {
    overflow-x: hidden;
   height: 100%;
-  background: black;
+  /* background: black;
   background-repeat:repeat !important;
- background-image: radial-gradient(circle, #9a2da8, #523087, #372972, #1f215c, #081846);
+ background-image: radial-gradient(circle, #9a2da8, #523087, #372972, #1f215c, #081846); */
   overflow-y: visible; 
 } 
 
-p{
+.hero #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* p{
   text-align:center;
   width:100%;
   color:hsla(0,50%,50%,1);
@@ -26,7 +35,7 @@ p{
   text-align: center;
   position: relative;
   margin-top: 40vh;
-}
+} */
 
 .hero {
   position: relative;
@@ -178,23 +187,6 @@ p{
 }
 
 
-#timer div {
-  background: linear-gradient(-45deg,  #e73ce7, #23a6d5, #2326d5);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-  width: 200px;
-  height: 80px;
-  border-radius: 5px;
-  font-size: 35px;
-  font-weight: 700;
-  margin-top: 6%;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 5%;
-  padding-top: 0.5%;
-  box-shadow: 2px 4px 4px rgb(221, 236, 235);
-}
-
 
 @keyframes gradient {
 	0% {
@@ -207,25 +199,18 @@ p{
 		background-position: 0% 50%;
 	}
 }
-#timer div span {
-  display: block;
-  margin-top: 3px;
-  padding-top: 2px;
-  font-size: 15px;
-  font-weight: 500;
-  color: #080606 !important;
-}
 
 .heading{
   text-align: center;
   font-family: Wallpoet, sans-serif;
   text-transform: uppercase; 
-  z-index: 10000;
+  z-index: 1;
 }
 
 .heading h1{
+  z-index: 1 !important;
   font-size: 85px;
-  background: linear-gradient(to right, #0d0f30 0%, #f18ad1 100%);
+  color: white !important; 
   text-shadow: -1px -1.5px rgb(228, 175, 77), 1.5px 2px hsla(0,0%,5%,0.5);
   background-clip: text;
 	-webkit-background-clip: text;
@@ -233,7 +218,7 @@ p{
   margin-bottom: 5%;
   margin-top: 5%;
 }
-
+/* 
 .heading h2 {
   font-size: 55px;
   background: linear-gradient(to right, #0d0f30 0%, #f18ad1 100%);
@@ -243,7 +228,7 @@ p{
 	-webkit-text-fill-color: transparent;
   margin-bottom: 15%;
   margin-top: 5%;
-}
+} */
 
 .container {
 
@@ -264,7 +249,7 @@ p{
 
 .card {
   margin: 10px 20% 5px 20%;
-  background-color: #1a1f29!important;  
+  background-color: rgb(20, 19, 19)!important;  
   margin-bottom: 25%;
   width: 20rem;
   height: 20rem;
@@ -273,6 +258,7 @@ p{
   padding-top: 12px;
   text-align: center;
   border-radius: 10px;
+  
 }
 
 .card:hover {

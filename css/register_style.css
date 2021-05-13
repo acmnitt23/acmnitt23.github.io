@@ -8,6 +8,14 @@ body {
   background-image: linear-gradient(to right, rgb(34, 97, 126), rgb(26, 27, 77));
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
