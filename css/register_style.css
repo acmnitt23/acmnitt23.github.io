@@ -5,7 +5,7 @@ body {
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   overflow-x: hidden;
-  background-image: linear-gradient(to right, rgb(123, 34, 126), rgb(26, 27, 77));
+  background-image: linear-gradient(to right, rgb(34, 97, 126), rgb(26, 27, 77));
 }
 
 @keyframes gradient {
