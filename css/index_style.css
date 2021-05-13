@@ -18,12 +18,20 @@ body {
   justify-content: center;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
   /* background: #000046; */
-  background-image: url(../images/bg1.gif);
+  /* background-image: url(../images/bg1.gif);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   /* background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
   background: linear-gradient(to right,  #7e2c13, rgb(88, 31, 86), #101044); */
   /* background-image: radial-gradient(circle, #361471, #002a71, #003162, #00324d, #053139);*/
