@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  background-image: radial-gradient(circle, rgb(7, 72, 92), rgb(26, 27, 77), rgb(91, 140, 172));
+  background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
   font-family: Blinker, sans-serif !important;
   letter-spacing: 0.1rem;
   height: 100%;
@@ -9,14 +9,17 @@ body {
 
 .heading {
   margin-top: 5%;
-  margin-left: 38%;
+  margin-left: 43%;
   color: white;
 }
 
 h1 {
-  
-  font-weight: normal;
-  font-size: 35px;
+  font-family: 'Montserrat', sans-serif ;
+  color: rgb(243, 166, 23) !important;
+  text-transform: uppercase;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+ 
+  font-size: 50px !important;
   position: relative;
   margin: 40px 0;
   color: white;
@@ -51,7 +54,7 @@ h1::before {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  background: rgb(2, 1, 2);
+  background: rgb(15, 14, 15);
   padding: 15px;
 }
 .container img {

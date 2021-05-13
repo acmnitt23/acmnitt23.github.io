@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
   background-image: radial-gradient(circle, #1d2c43, #1d324b, #1d3953, #1b3f5b, #184663, #0f455f, #06455b, #004457, #003b47, #003238, #00282a, #001f1d);
   /* background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
@@ -33,6 +34,10 @@ body {
     color: white;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif ;
+  color: rgb(16, 175, 196) !important;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
   }
 
  

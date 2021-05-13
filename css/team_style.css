@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
 body {
   
@@ -102,6 +102,10 @@ body {
 }
 
 .container1 h1 {
+  font-family: 'Montserrat', sans-serif ;
+  color: rgb(243, 166, 23) !important;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+  font-size: 50px;
   color: whitesmoke;
   margin-top: 2%;
   margin-bottom: 0.3rem;
