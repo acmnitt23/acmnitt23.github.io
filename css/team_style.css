@@ -457,5 +457,8 @@ body {
     
   }
 
+  .container1 h1{
+    font-size: 30px;
+  }
   
 }

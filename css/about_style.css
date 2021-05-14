@@ -51,6 +51,11 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+    
+    .heading h1{
+      font-size: 30px;
+    }
+
     p {
         font-size: 1.3em;
         padding-left: 15px;

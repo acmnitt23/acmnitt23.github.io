@@ -310,5 +310,11 @@ body {
   .navbar-links.active {
     display: flex;
   }
+
+  .pre h1{
+    margin-top: 20%;
+    font-size: 25px;
+    text-transform: none;
+  }
 }
 

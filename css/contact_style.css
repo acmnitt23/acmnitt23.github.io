@@ -206,6 +206,8 @@ body {
     margin-top:2rem;
   }
 
-  
+  .heading h1{
+    font-size: 30px;
+  }
 
 }

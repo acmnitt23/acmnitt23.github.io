@@ -437,7 +437,7 @@
  
 
   .container{
-    left: -3rem;
+    left: -3.5rem;
    
   }
 
@@ -462,6 +462,12 @@
     left: -50%;
   }
 
+  #photo{
+    position: relative;
+    right: 30% !important;
+  }
+  
+  
 
 }
 
@@ -475,7 +481,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: -10% !important;
+    margin-left: -12% !important;
     margin-right: -5% !important;
   }
 
@@ -491,7 +497,9 @@
     left: -40%;
   }
 
-
+  #photo{
+    right: 20% !important;
+  }
   
   }
 
@@ -518,6 +526,7 @@
 .row{
   left:4.5rem;
 }
+
 
 }
 
