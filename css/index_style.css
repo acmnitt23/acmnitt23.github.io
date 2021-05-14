@@ -162,7 +162,8 @@ body {
 .hero .timer span {
   display: grid;
   place-content: center;
-  border: 3px solid rgb(247, 230, 230);
+  border: 3px solid rgb(110, 6, 20);
+  
   border-radius: 60%;
   margin: 0 0.5em;
   height: 80px;
@@ -171,10 +172,10 @@ body {
   font-weight: 150;
   font-size: 1.6rem;
   color: white;
-  background-color: transparent;
+  background-color: black;
 }
 .hero .timer p {
-  color: white;
+  color: whitesmoke;
   margin-left: 28%;
 }
 

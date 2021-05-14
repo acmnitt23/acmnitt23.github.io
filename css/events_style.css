@@ -8,6 +8,7 @@
  html,body {
    overflow-x: hidden;
   height: 100%;
+  
   /* background: black;
   background-repeat:repeat !important;
  background-image: radial-gradient(circle, #9a2da8, #523087, #372972, #1f215c, #081846); */
@@ -430,7 +431,7 @@
 }
 
 #photo{
-  right: 2% !important;
+  right: -7% !important;
 }
 @media screen and (max-width: 800px) {
  
