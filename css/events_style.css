@@ -24,25 +24,11 @@
   z-index: -1;
 }
 
-/* p{
-  text-align:center;
-  width:100%;
-  color:hsla(0,50%,50%,1);
-  font-size:6em;
-  text-shadow:1px 1px hsla(0,0%,5%,1),
-          -1px -1px hsla(0,0%,5%,1);
-  font-family: 'Poiret One', cursive;
-  letter-spacing: 6px;
-  text-align: center;
-  position: relative;
-  margin-top: 40vh;
-} */
 
 .hero {
   position: relative;
   height: 150vh;
   overflow-wrap: normal;
-  /* overflow-y: scroll; */
   font-family: "Montserrat", sans-serif;
 }
 
