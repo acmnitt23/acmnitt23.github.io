@@ -10,7 +10,6 @@ body {
   background-position: center;
   background-color: black;
   height: 100%;
-  overflow-y: hidden;
 }
 
 #myVideo {
