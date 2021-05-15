@@ -1,17 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
 
 body {
-  
   overflow-x: hidden;
   overflow-wrap: normal;
   background-color: black;
-  /* background-image: radial-gradient(circle, #051937, #001b31, #001b29, #001b20, #031919); */
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
-  color: #0c222b; 
- 
+  color: #0c222b;
 }
 
 #myVideo {
@@ -101,10 +98,7 @@ body {
   border-radius: 10px;
 }
 
-
-
 .container1 {
-  
   margin-left: 4rem;
   margin-right: 2rem;
   align-items: center;
@@ -112,9 +106,9 @@ body {
 }
 
 .container1 h1 {
-  font-family: 'Montserrat', sans-serif ;
+  font-family: "Montserrat", sans-serif;
   color: rgb(243, 166, 23) !important;
-  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0, 0%, 5%, 0.5);
   font-size: 50px;
   color: whitesmoke;
   margin-top: 2%;
@@ -227,9 +221,9 @@ body {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
-  transform:rotateY(0deg);
-  -webkit-transform:rotateY(0deg);
-  -moz-transform:rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
   border-radius: 5px;
   box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -241,7 +235,7 @@ body {
   width: fit-content;
   height: 150px;
   width: 245px;
- 
+
   background: url("../images/back.jpg") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
@@ -308,7 +302,6 @@ body {
   color: gray;
 }
 
-
 .back {
   transform: rotateY(180deg);
   position: absolute;
@@ -369,13 +362,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-
-  body{
+  body {
     overflow-wrap: normal;
-    
   }
 
-  
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -385,7 +375,7 @@ body {
     float: left;
   }
 
-  .navbar-brand img{
+  .navbar-brand img {
     width: 8rem;
     margin-top: -1rem;
     margin-left: 0.5rem;
@@ -412,13 +402,12 @@ body {
     color: white;
   }
 
-   .navbar-links li a{
-     font-size: 1rem;
-   }
+  .navbar-links li a {
+    font-size: 1rem;
+  }
   .navbar-links ul li a {
     padding: 0.5rem 1rem;
     margin-right: -0.5rem;
-    
   }
 
   .navbar-links.active {
@@ -430,35 +419,32 @@ body {
     margin-left: 0.2rem;
     margin-bottom: 2rem;
   }
-  
+
   .dropdown {
     margin-top: 1rem;
     margin-left: 10rem;
   }
-  
-  #dropdownMenu2{
+
+  #dropdownMenu2 {
     position: relative;
-    
   }
 
-  .dropdown-menu{
+  .dropdown-menu {
     position: relative;
     background-color: rgb(230, 243, 243);
     color: black;
     box-shadow: black;
   }
 
-  .dropdown-item{
+  .dropdown-item {
     color: black;
   }
 
   .container1 {
     margin-left: 4rem;
-    
   }
 
-  .container1 h1{
+  .container1 h1 {
     font-size: 30px;
   }
-  
 }

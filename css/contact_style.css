@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Wallpoet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  /* background-image: radial-gradient(circle, #1d2c43, #1d324b, #1d3953, #1b3f5b, #184663, #0f455f, #06455b, #004457, #003b47, #003238, #00282a, #001f1d); */
-  /* background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
-  animation: gradient 10s ease infinite; */
   font-family: Blinker, sans-serif;
   color: #0c222b;
   background-position: center;
@@ -33,31 +30,26 @@ body {
   }
 }
 
-  
-  .heading{
-    text-align: center;
-    
-  }
+.heading {
+  text-align: center;
+}
 
-  .heading h1{
-    color: white;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    font-size: 50px;
-    font-family: 'Montserrat', sans-serif ;
-    color: rgb(243, 166, 23) !important;
-    text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
-  }
+.heading h1 {
+  color: white;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(243, 166, 23) !important;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0, 0%, 5%, 0.5);
+}
 
- 
 .container {
-
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .container .card {
   position: relative;
@@ -74,9 +66,8 @@ body {
   align-items: center;
 }
 
-.container .card img{
-  
-  padding : 0;
+.container .card img {
+  padding: 0;
   width: 25rem;
   height: 25rem;
 }
@@ -108,8 +99,6 @@ body {
   bottom: 0;
   transition-delay: 0s;
 }
-
-
 
 .container .card .content .contentBx h3 {
   text-transform: uppercase;
@@ -160,7 +149,7 @@ body {
   padding-right: 0.5rem;
   margin-left: 0.05rem;
 }
-.container .card .content .sci li a i{
+.container .card .content .sci li a i {
   color: rgb(241, 233, 233);
   font-size: 24px;
   margin-left: 0.01rem;
@@ -173,7 +162,7 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.fas:hover{
+.fas:hover {
   color: rgb(10, 10, 10) !important;
 }
 
@@ -184,14 +173,12 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.fab:hover{
+.fab:hover {
   color: rgb(3, 3, 3) !important;
 }
 
 @media screen and (max-width: 800px) {
-
-
-  body{
+  body {
     background-size: 300% 300%;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -199,19 +186,11 @@ body {
     background-repeat: no-repeat;
   }
 
-
-
-  .heading{
-    margin-top:2rem;
+  .heading {
+    margin-top: 2rem;
   }
 
-  .heading h1{
+  .heading h1 {
     font-size: 30px;
   }
-
-  /* .container .card{
-    width: 250px;
-    height: 350px;
-  } */
-
 }

@@ -29,88 +29,11 @@ body {
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 .hero {
-  /* background: #000046;
-  background-image: url(../images/bg1.gif);
-  background-size: cover;
-  background-repeat: no-repeat; */
-  /* background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
-  background: linear-gradient(to right,  #7e2c13, rgb(88, 31, 86), #101044); */
-  /* background-image: radial-gradient(circle, #361471, #002a71, #003162, #00324d, #053139);*/
-  position: relative; 
+  position: relative;
   height: 100vh;
   overflow: hidden;
   font-family: "Montserrat", sans-serif;
 }
-/* 
-.hero__title {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
-}
-
-.cube {
-  position: absolute;
-  top: 80vh;
-  left: 45vw;
-  width: 8px;
-  height: 8px;
-  border: solid 1px#fff;
-  transform-origin: top left;
-  transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 12s ease-in forwards infinite;
-  animation: cube 12s ease-in forwards infinite;
-}
-
-.cube:nth-child(2n) {
-  border-color: #6b778d;
-}
-
-.cube:nth-child(2) {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  left: 25vw;
-  top: 40vh;
-}
-
-.cube:nth-child(3) {
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s;
-  left: 35vw;
-  top: 10vh;
-}
-
-.cube:nth-child(4) {
-  border: solid 1px#fff;
-  -webkit-animation-delay: 6s;
-  animation-delay: 6s;
-  left: 90vw;
-  top: 10vh;
-}
-.cube:nth-child(5) {
-  border: solid 1px#fff;
-  -webkit-animation-delay: 8s;
-  animation-delay: 8s;
-  left: 10vw;
-  top: 85vh;
-}
-
-.cube:nth-child(7) {
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-  left: 30vw;
-  top: 70vh;
-}
-
-.cube:nth-child(8) {
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s;
-  left: 60vw;
-  top: 20vh;
-} */
 
 @-webkit-keyframes cube {
   from {
@@ -152,18 +75,16 @@ body {
   padding: 2rem;
   margin-top: 24%;
   margin-left: 2%;
-  
 }
 .hero .timer .count {
   display: grid;
   place-content: center;
-  
 }
 .hero .timer span {
   display: grid;
   place-content: center;
   border: 3px solid rgb(110, 6, 20);
-  
+
   border-radius: 60%;
   margin: 0 0.5em;
   height: 80px;
@@ -178,7 +99,6 @@ body {
   color: whitesmoke;
   margin-left: 28%;
 }
-
 
 #page-wrap {
   width: 800px;
@@ -196,7 +116,6 @@ body {
   width: 12%;
 }
 
-
 .infotrek-main {
   position: fixed;
 }
@@ -212,7 +131,7 @@ body {
 }
 
 .infotrek-main h1 img {
-  animation: flash; 
+  animation: flash;
   animation-duration: 4s !important;
   animation-delay: 2s;
   animation-fill-mode: both;
@@ -229,14 +148,14 @@ body {
   width: 30%;
   height: 30%;
   font-family: Blinker, sans-serif;
-  animation: flash; 
+  animation: flash;
   animation-duration: 2s !important;
   animation-delay: 5s;
   animation-fill-mode: both;
   animation-timing-function: linear;
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
   body {
     background-size: 300% 300%;
     overflow-x: hidden;
@@ -284,12 +203,10 @@ body {
     bottom: 30%;
     right: 18%;
     margin-top: 24rem;
-    
   }
   .hero .timer .count p {
     font-size: 0.81rem;
     margin-left: 22% !important;
-    
   }
   .hero .timer .count span {
     height: 50px;
@@ -298,34 +215,27 @@ body {
     /* margin: 0.5em 1em; */
     margin: 0 0.5em;
     font-size: 1rem;
-   
   }
-
 }
 
-@media screen and (max-width:370px){
+@media screen and (max-width: 370px) {
   .hero .timer {
     padding: 0;
     position: fixed;
     bottom: 30%;
     right: 12%;
     margin-top: 24rem;
-    
-  }  
+  }
 }
-
 
 @media screen and (width: 360px) and (height: 640px) {
   #cs {
-    width:40%;
+    width: 40%;
     margin-top: -10%;
     height: 20%;
     left: -20%;
-    
-   
-    
   }
-  
+
   .infotrek-main {
     margin-left: 5rem;
   }
@@ -360,12 +270,9 @@ body {
     margin-right: 0.8rem;
     font-size: 1rem;
   }
-
-
 }
 
-@media only screen and (min-width: 412px) and (orientation: portrait) 
-{
+@media only screen and (min-width: 412px) and (orientation: portrait) {
   #cs {
     top: 35rem;
 
@@ -374,7 +281,6 @@ body {
     height: 7%;
   }
 }
-
 
 @media screen and (max-width: 800px) {
   #cs {
@@ -399,38 +305,25 @@ body {
   }
 }
 
-
-@media only screen 
-  and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-
-
- 
-    #cs {
-      margin-left: 20%;
-      margin-top: 10rem;
-    }
-    
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cs {
+    margin-left: 20%;
+    margin-top: 10rem;
+  }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
-  #cs{
-    width:40%;
+  #cs {
+    width: 40%;
     margin-top: -10%;
     height: 20%;
     left: -20%;
   }
- 
-  
-   
-  .infotrek-main h1{
+
+  .infotrek-main h1 {
     left: 15rem;
-    
   }
 
-  
   .infotrek-main h1 img {
     margin-top: -4rem;
     margin-right: 120%;
@@ -457,13 +350,11 @@ body {
   }
 }
 
-@media screen and (width: 1280px) and (height: 610px){
-  
-  .infotrek-main h1{
+@media screen and (width: 1280px) and (height: 610px) {
+  .infotrek-main h1 {
     left: 25rem;
-    
   }
- 
+
   .hero .timer {
     padding: 0;
     position: fixed;
@@ -471,14 +362,11 @@ body {
     right: 32%;
     margin-top: 24rem;
   }
-
-
 }
 
-@media screen and (width: 1536px) and (max-height: 800px){
-  .infotrek-main h1{
+@media screen and (width: 1536px) and (max-height: 800px) {
+  .infotrek-main h1 {
     left: 30rem;
-    
   }
   .hero .timer {
     padding: 0;
@@ -489,15 +377,11 @@ body {
   }
 }
 
-
-
-@media screen and (width: 1366px) and (max-height: 680px){
-  
-  .infotrek-main h1{
+@media screen and (width: 1366px) and (max-height: 680px) {
+  .infotrek-main h1 {
     left: 27rem;
-    
   }
- 
+
   .hero .timer {
     padding: 0;
     position: fixed;
@@ -505,27 +389,20 @@ body {
     right: 32%;
     margin-top: 24rem;
   }
-
-
 }
 
-
-
-@media screen and (width: 1280px) and (height: 950px){
-
-  #cs{
-    width:40%;
+@media screen and (width: 1280px) and (height: 950px) {
+  #cs {
+    width: 40%;
     margin-top: 30%;
     height: 20%;
     left: -1%;
   }
-  
-  .infotrek-main h1{
+
+  .infotrek-main h1 {
     left: 18rem;
-    
   }
 
-  
   .infotrek-main h1 img {
     margin-top: -4rem;
     margin-right: 100%;
@@ -552,4 +429,3 @@ body {
     font-size: 1rem;
   }
 }
-

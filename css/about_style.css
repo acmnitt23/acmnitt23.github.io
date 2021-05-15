@@ -1,64 +1,58 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-    /* background-image: linear-gradient(to right, rgb(123, 34, 126), rgb(26, 27, 77)); */
-    /* background-image: radial-gradient(circle, #1d2c43, #1d324b, #1d3953, #1b3f5b, #184663, #0f455f, #06455b, #004457, #003b47, #003238, #00282a, #001f1d); */
-    background-position: center;
-    font-family: Blinker, sans-serif;
-    color: white;
-    height: 100%;
-    background-color: black;
+  background-position: center;
+  font-family: Blinker, sans-serif;
+  color: white;
+  height: 100%;
+  background-color: black;
 }
 
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-  }
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 70% 100%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-} 
-
-.heading{
-    text-align: center;
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 70% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.heading h1{
-    
-    margin-top: 2%;
-    margin-bottom: 3%;
-    font-family: 'Montserrat', sans-serif ;
-    color: rgb(243, 166, 23) !important;
-    text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5)
+.heading {
+  text-align: center;
 }
 
+.heading h1 {
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(243, 166, 23) !important;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0, 0%, 5%, 0.5);
+}
 
 p {
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    text-align: justify;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-align: justify;
 }
 
 @media screen and (max-width: 800px) {
-    
-    .heading h1{
-      font-size: 30px;
-    }
+  .heading h1 {
+    font-size: 30px;
+  }
 
-    p {
-        font-size: 1.3em;
-        padding-left: 15px;
-
-    }
+  p {
+    font-size: 1.3em;
+    padding-left: 15px;
+  }
 }

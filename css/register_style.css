@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   overflow-x: hidden;
   background-color: black;
-  /* background-image: linear-gradient(to right, rgb(34, 97, 126), rgb(26, 27, 77)); */
 }
 
 #myVideo {
@@ -113,147 +112,126 @@ body {
   color: #fff;
   text-align: center;
   letter-spacing: 0.3rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.pre{
-  left:50%;
-  top:50%;
+.pre {
+  left: 50%;
+  top: 50%;
 }
 
-.pre h1{
+.pre h1 {
   margin-top: 15%;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgb(243, 166, 23) !important;
-  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0, 0%, 5%, 0.5);
 }
 
-.box{
-
-  font-family: 'Montserrat' !important;
+.box {
+  font-family: "Montserrat" !important;
   width: 500px;
- 
+
   padding: 40px;
- 
+
   position: relative;
- 
+
   top: 300px;
- 
+
   left: 50%;
- 
-  transform: translate(-50%,-50%);
- 
-  background:#000;
+
+  transform: translate(-50%, -50%);
+
+  background: #000;
 
   border-radius: 5%;
   /* border: 0.2px solid white; */
   text-align: center;
   box-shadow: 5px 5px 5px rgba(217, 222, 228, 0.3);
- 
 }
 
-
- .box h1{
- 
+.box h1 {
   color: white;
   font-size: 2.4em;
   text-transform: uppercase;
   margin-left: -3%;
   font-weight: 500;
   margin-bottom: 10%;
- 
- }
- 
- .box input[type = "text"], .box input[type = "password"], .box input[type = "email"]{
- 
-  border: 0;
- 
-  background: none;
- 
-  display: block;
- 
-  margin: 20px auto;
- 
-  text-align: center;
- 
-  border: 2px solid #3498db;
- 
-  padding: 14px 10px;
- 
-  width: 200px;
- 
-  outline: none;
- 
-  color: white;
-  
-  border-radius: 50px;
- 
-  transition: 0.25s;
+}
 
-  
- 
- }
- 
- .box input[type = "text"]:focus,.box input[type = "password"]:focus, .box input[type = "email"]:focus{
- 
-  width: 280px;
- 
-  border-color: #2ecc71;
- 
- }
- 
- 
- 
- .box input[type = "submit"]
- 
- {
- 
-   border: 0;
- 
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="email"] {
+  border: 0;
+
   background: none;
- 
+
   display: block;
- 
-  margin-top: 5px; 
+
+  margin: 20px auto;
+
+  text-align: center;
+
+  border: 2px solid #3498db;
+
+  padding: 14px 10px;
+
+  width: 200px;
+
+  outline: none;
+
+  color: white;
+
+  border-radius: 50px;
+
+  transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus,
+.box input[type="email"]:focus {
+  width: 280px;
+
+  border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+  border: 0;
+
+  background: none;
+
+  display: block;
+
+  margin-top: 5px;
 
   margin-left: 60%;
 
- 
   text-align: center;
- 
+
   border: 2px solid #2ecc71;
- 
+
   padding: 14px 40px;
- 
+
   outline: none;
- 
+
   color: white;
- 
+
   border-radius: 50px;
- 
+
   transition: 0.25s;
- 
+
   cursor: pointer;
- 
- }
- 
- 
- 
- .box input[type = "submit"]:hover
- 
- {
- 
+}
+
+.box input[type="submit"]:hover {
   background: #2ecc71;
- 
- }
+}
 
 .login {
   float: right;
   margin-top: 0;
   margin-right: 20px;
 }
-
 
 @media (max-width: 800px) {
   .box {
@@ -273,7 +251,7 @@ body {
     float: left;
   }
 
-  .navbar-brand img{
+  .navbar-brand img {
     width: 10rem;
     margin-top: -1rem;
     margin-left: -4rem;
@@ -301,20 +279,18 @@ body {
   .navbar-links ul li a {
     padding: 0.5rem 1rem;
     margin-right: -0.5rem;
-    
   }
 
-  .navbar-links li a{
+  .navbar-links li a {
     font-size: 1rem;
   }
   .navbar-links.active {
     display: flex;
   }
 
-  .pre h1{
+  .pre h1 {
     margin-top: 20%;
     font-size: 25px;
     text-transform: none;
   }
 }
-
