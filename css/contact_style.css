@@ -61,8 +61,8 @@ body {
 }
 .container .card {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 350px;
   margin: 20px;
   margin-right: 40px;
   margin-left: 30px;
@@ -208,5 +208,10 @@ body {
   .heading h1{
     font-size: 30px;
   }
+
+  /* .container .card{
+    width: 250px;
+    height: 350px;
+  } */
 
 }
