@@ -130,7 +130,7 @@ body {
 
 .box {
   font-family: "Montserrat" !important;
-  width: 500px;
+  width: 420px;
 
   padding: 40px;
 
@@ -142,12 +142,12 @@ body {
 
   transform: translate(-50%, -50%);
 
-  background: #000;
+  background: black;
 
   border-radius: 5%;
   /* border: 0.2px solid white; */
   text-align: center;
-  box-shadow: 5px 5px 5px rgba(217, 222, 228, 0.3);
+  box-shadow: 3px 3px 5px 6px rgba(217, 222, 228, 0.3);
 }
 
 .box h1 {
@@ -177,7 +177,8 @@ body {
   padding: 14px 10px;
 
   width: 200px;
-
+  
+  height: 45px;
   outline: none;
 
   color: white;
@@ -192,7 +193,6 @@ body {
 .box input[type="email"]:focus {
   width: 280px;
 
-  border-color: #2ecc71;
 }
 
 .box input[type="submit"] {
@@ -201,16 +201,16 @@ body {
   background: none;
 
   display: block;
-
+  height: 50px;
   margin-top: 5px;
 
-  margin-left: 60%;
+  margin-left: 28%;
 
   text-align: center;
 
   border: 2px solid #2ecc71;
 
-  padding: 14px 40px;
+  padding: 10px 40px;
 
   outline: none;
 
