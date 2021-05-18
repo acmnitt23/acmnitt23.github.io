@@ -280,6 +280,9 @@ body {
   margin-left: 2rem;
   margin-bottom: 0.01rem;
 }
+.modal-footer button {
+  cursor: pointer;
+}
 
 .btn {
   margin-bottom: 2rem;

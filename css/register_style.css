@@ -160,6 +160,7 @@ body {
 }
 
 .box input[type="text"],
+.box input[type="number"],
 .box input[type="password"],
 .box input[type="email"] {
   border: 0;
@@ -189,6 +190,7 @@ body {
 }
 
 .box input[type="text"]:focus,
+.box input[type="number"]:focus,
 .box input[type="password"]:focus,
 .box input[type="email"]:focus {
   width: 280px;
@@ -225,6 +227,17 @@ body {
 
 .box input[type="submit"]:hover {
   background: #2ecc71;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .login {
