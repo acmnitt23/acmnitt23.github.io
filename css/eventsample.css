@@ -141,6 +141,12 @@ html,body {
 }
 
 
+.modal-footer button:hover {
+  cursor: default;
+}
+
+
+
 @media screen and (max-width: 800px) {
 
     .heading h1{
